@@ -1,0 +1,19 @@
+.navbar{
+    background-color:#ffffff;
+    padding-top: 6%;
+	font-family: 'Arimo', sans-serif;
+
+    /*font-size: */
+}
+
+
+.navbar-brand {
+    position: relative; 
+    z-index: 2; 
+}
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: rgb(0, 179, 227);
+    border-color: rgb(0, 179, 227);
+    color: rgb(255, 255, 255);
+}
