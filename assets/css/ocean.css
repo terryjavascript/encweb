@@ -63,17 +63,17 @@ h2{
     	height: auto;
  	}
  	.upperPic{
- 		width: 350px;
-		height: auto;
-		padding-bottom: 5px;
-		padding-top: 25px;	
+		width: 350px;
+		height: auto; 
+		padding-top: 45px;
 	}
 	.bottomPic{
- 		width: 341px;
-		height: auto;
-		padding-bottom: 5px;
-		padding-top: 25px;	
+		width: 341px;
+		height: auto; 
+		padding-top: 45px;
+
 	}
+}
 
 
 /* Custom, iPhone Retina */
@@ -86,13 +86,12 @@ h2{
 		width: 250px;
 		height: auto; 
 		padding-top: 45px;
-		border-radius: 5px;
+		padding-right: 10px;
 	}
  	.bottomPic{
-		width: 241px;
+		width: 245px;
 		height: auto; 
 		padding-top: 45px;
-		border-radius: 5px;
+		padding-left: 10px;
 	}
-
 }
