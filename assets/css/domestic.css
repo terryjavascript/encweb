@@ -5,14 +5,12 @@
 
 body{
 	max-width: 100%;
-
 }
 
 #bannerPic{
 	position: relative;
 	width: 100%;
-	height: 160px;
-	
+	height: 160px;	
 }
 
 h2{
@@ -27,7 +25,6 @@ h2{
 	/*font-family: "OneLatin",sansariff;*/
 	font-family: 'Arimo', sans-serif;
     /*font-size: */
-
 }
 
 .msg3{
@@ -38,7 +35,6 @@ h2{
 	font-size: 14px;
 	color: #555;
 	line-height: 20px;
-
 }
 
 .upperPic{
@@ -47,6 +43,10 @@ h2{
 
 .pagePic{
 	border-radius: 5px;
+}
+
+.portalPic{
+	padding-bottom: 20px;
 }
 
 /* Medium Devices, .visible-md-* */
@@ -59,6 +59,10 @@ h2{
 		width: 400px;
 		height: auto;
 	}
+	.portalPic{
+		width: 100%;
+		height: auto;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -67,11 +71,21 @@ h2{
     	width: 100%;
     	height: auto;
  	}
- 	.pagePic{
+ 	.upperPic{
  		width: 350px;
 		height: auto;
 		padding-bottom: 5px;
 		padding-top: 25px;	
+	}
+	.bottomPic{
+ 		width: 333px;
+		height: auto;
+		padding-bottom: 5px;
+		padding-top: 25px;	
+	}
+	.portalPic{
+		width: 100%;
+		height: auto;
 	}
 }
 
@@ -81,9 +95,20 @@ h2{
     	width: 100%;
     	height: auto;
  	}
- 	.pagePic{
-		width: 288px;
-		height: auto; 	
-		padding-top: 25px;	
+ 	.upperPic{
+		width: 250px;
+		height: auto; 
+		padding-top: 45px;
+		border-radius: 5px;
+	}
+ 	.bottomPic{
+		width: 238px;
+		height: auto; 
+		padding-top: 45px;
+		border-radius: 5px;
+	}
+	.portalPic{
+		width: 100%;
+		height: auto;
 	}
 }
