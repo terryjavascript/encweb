@@ -70,7 +70,7 @@ h2{
 		border-radius: 5px;
 	}
 	.bottomPic{
-		width: 346px;
+		width: 370px;
 		height: auto; 
 		padding-top: 45px;
 		border-radius: 5px;
@@ -84,17 +84,19 @@ h2{
     	width: 100%;
     	height: auto;
  	}
- 	.upperPic{
+ 	.pagePic{
 		width: 250px;
 		height: auto; 
 		padding-top: 45px;
 		border-radius: 5px;
 	}
-	.bottomPic{
-		width: 246px;
+
+ 	.bottomPic{
+		width: 270px;
 		height: auto; 
 		padding-top: 45px;
 		border-radius: 5px;
 	}
+
 }
 

@@ -47,3 +47,49 @@ h2{
 .pagePic{
 	border-radius: 5px;
 }
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+	.pagePic{
+		width: 400px;
+		height: auto;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+ 	.upperPic{
+		width: 350px;
+		height: auto; 
+		padding-top: 45px;
+		border-radius: 5px;
+	}
+	.bottomPic{
+		display: none;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+ 	.upperPic{
+		width: 250px;
+		height: auto; 
+		padding-top: 45px;
+		border-radius: 5px;
+	}
+	.bottomPic{
+		display: none;
+	}
+}

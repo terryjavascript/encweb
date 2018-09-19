@@ -20,6 +20,10 @@ h2{
 	font-size: 28px;
 }
 
+.msg2{
+	padding-top: 8px;
+}
+
 .msgDiv{
 	padding-top: 35px;
 	padding-left: 50px;
@@ -62,12 +66,15 @@ img{
 
 
 /* Medium Devices, .visible-md-* */
-@media (min-width: 500px) and (max-width: 1199px) {	
+@media (min-width: 400px) and (max-width: 1199px) {	
 	.flagpic{
     	width: 100%;
     	height: auto;
     }
-
+    #bannerPic{
+    	width: 100%;
+    	height: auto;
+    }
     .badge{
     	width: 100%;
     	height: auto;
