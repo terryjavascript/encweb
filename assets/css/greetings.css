@@ -2,7 +2,6 @@
 	
 }
 
-
 body{
 	max-width: 100%;
 }
@@ -50,10 +49,15 @@ h2{
     	width: 100%;
     	height: auto;
  	}
-	.pagePic{
+	.upperPic{
 		width: 400px;
 		height: auto;
 	}
+	.bottomPic{
+		width: 400px;
+		height: 280px;
+	}
+
 }
 
 /* Small Devices, Tablets */
@@ -69,7 +73,11 @@ h2{
 		border-radius: 5px;
 	}
 	.bottomPic{
-		display: none;
+		width: 350px;
+		height: 280px; 
+		padding-top: 45px;
+		border-radius: 5px;
+	}
 }
 
 
@@ -86,6 +94,9 @@ h2{
 		border-radius: 5px;
 	}
 	.bottomPic{
-		display: none;
+		width: 250px;
+		height: 213px; 
+		padding-top: 45px;
+		border-radius: 5px;
 	}
 }

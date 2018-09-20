@@ -18,21 +18,51 @@ body{
 }	
 
 .commodities{
-	padding-top: 100px;
+
 	font-size: 100px;
 	padding-bottom: 20px;
 }
 
-.fa{
+.txt{
 	color: rgb(0, 179, 227);
 }
 
 .logoPic{
-	width: 155px;
-	height: auto;
-	padding-top: -150px;
+	width: 135px;
+	height: 135px;
+	padding-bottom: 
+}
+
+.col-md-3 {
+	padding-bottom: 20px;
 }
 
 h5{
 	color: black;
+}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 748px) and (max-width: 991px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+	}
 }
