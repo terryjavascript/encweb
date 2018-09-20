@@ -43,3 +43,61 @@ h2{
 .pagePic{
   border-radius: 5px;
 }
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #bannerPic{
+    width: 100%;
+    height: auto;
+  }
+  .upperPic{
+    width: 400px;
+    height: 280px;
+  }
+  .bottomPic{
+    width: 400px;
+    height: 280px;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #bannerPic{
+      width: 100%;
+      height: auto;
+  }
+  .upperPic{
+    width: 350px;
+    height: 290px; 
+    padding-top: 45px;
+    padding-right: 10px;
+  }
+  .bottomPic{
+    width: 350px;
+    height: 270px; 
+    padding-top: 45px;
+    padding-left: 10px;
+  }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+  #bannerPic{
+      width: 100%;
+      height: auto;
+  }
+  .upperPic{
+    width: 250px;
+    height: 232px; 
+    padding-top: 45px;
+    padding-right: 10px;
+  }
+  .bottomPic{
+    width: 250px;
+    height: 213px; 
+    padding-top: 45px;
+    padding-left: 10px;
+  }
+}
