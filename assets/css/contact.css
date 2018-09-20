@@ -44,3 +44,7 @@ h2{
 .pagePic{
 	border-radius: 5px;
 }
+
+#contact .card:hover i,#contact .card:hover h4{
+	color: rgb(0, 179, 227);
+}
