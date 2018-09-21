@@ -2,7 +2,6 @@
 	
 }
 
-
 body{
 	max-width: 100%;
 }
@@ -21,10 +20,14 @@ h2{
 	padding-top: 35px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	/*font-family: "OneLatin",sansariff;*/
 	font-family: 'Arimo', sans-serif;
     /*font-size: */
+}
+
+.msg2{
+	padding-top: 15px;
 }
 
 .msg3{
@@ -37,12 +40,16 @@ h2{
 	line-height: 20px;
 }
 
-.upperPic{
-	padding-bottom: 20px;
+.slot{
+	padding: 30px 0px 50px 80px;
 }
 
-.pagePic{
-	border-radius: 5px;
+.slot2{
+	width: 250px;
+	height: 250px;
+	border-style: solid;
+	border-width: medium;
+	border-radius: 50%;
 }
 
 #contact .card:hover i,#contact .card:hover h4{
@@ -65,7 +72,6 @@ h2{
   	}
 }
 
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
   #bannerPic{
@@ -73,4 +79,3 @@ h2{
       height: auto;
   	}
 }
-
