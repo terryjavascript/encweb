@@ -128,21 +128,21 @@ h2{
 }
 
 .shang{
-	background-image: url("../images/bgc1.jpg");
+	background-image: url("../images/bgc11.jpg");
 	background-size: 400px;
     background-color: rgba(255,255,255,0.3);
     background-blend-mode: lighten;
 }
 
 .xian{
-	background-image: url("../images/bgc1.jpg");
-	background-size: 400px;
+	background-image: url("../images/bgc12.jpg");
+	background-size: 350px;
     background-color: rgba(255,255,255,0.3);
     background-blend-mode: lighten;
 }
 
 .taipei{
-	background-image: url("../images/bgc1.jpg");
+	background-image: url("../images/bgc13.jpg");
 	background-size: 400px;
     background-color: rgba(255,255,255,0.3);
     background-blend-mode: lighten;
@@ -156,6 +156,7 @@ a {
 .slot3{
 	padding-top: 25px;
 }
+
 
 #contact .card:hover i,#contact .card:hover h4{
 	color: white;
