@@ -59,7 +59,7 @@ h2{
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   #bannerPic{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 	}
 }

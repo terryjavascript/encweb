@@ -1,0 +1,58 @@
+.btxt, .btxt2{
+	z-index: 1;
+	display: inline;
+	position: absolute;
+	font-family: 'Arimo', sans-serif;
+	font-size: 58px;
+	color: white;
+	text-shadow: 2px 2px black;
+	left: 60%;
+	top: 20%;
+	padding-right: 5%;
+}
+
+.btxt2{
+	left: 66%;
+}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btxt{
+      font-size: 3.0em;
+      left: 65%;
+      top: 25%;
+	}
+  .btxt2{
+      font-size: 3.3em;
+      left: 67%;
+      top: 25%;
+	}	
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .btxt{
+      font-size: 2.2em;
+      top: 30%;
+      left: 65%;
+	}
+  .btxt2{
+      font-size: 2.8em;
+      left: 67%;
+      top: 25%;
+	}	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+  .btxt{
+      font-size: 1.8em;
+      top: 23%;
+      left: 63%;
+	}
+  .btxt2{
+      font-size: 2.3em;
+      left: 67%;
+      top: 30%;
+	}		
+}
