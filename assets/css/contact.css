@@ -13,7 +13,7 @@ body{
 }
 
 h2{
-	font-size: 28px;
+	font-size: 32px;
 }
 
 .msgDiv{
@@ -50,10 +50,115 @@ h2{
 	border-style: solid;
 	border-width: medium;
 	border-radius: 50%;
+	color: black;
+	font-weight: bold;
+	text-shadow: .3px .3px white;
+
+}
+
+.losA{
+	background-image: url("../images/bgc1.jpg");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+
+}
+
+.sanF{
+	background-image: url("../images/bgc2.jpeg");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.dal{
+	background-image: url("../images/bgc3.jpg");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.aust{
+	background-image: url("../images/bgc4.jpg");
+	background-size: 380px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.chic{
+	background-image: url("../images/bgc5.jpg");
+	background-size: 300px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.nyc{
+	background-image: url("../images/bgc6.png");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.seoul{
+	background-image: url("../images/bgc7.jpg");
+	background-size: 450px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.incheon{
+	background-image: url("../images/bgc8.jpg");
+	background-size: 330px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.busan{
+	background-image: url("../images/bgc9.jpg");
+	background-size: 350px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.singa{
+	background-image: url("../images/bgc10.jpeg");
+	background-size: 310px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.shang{
+	background-image: url("../images/bgc1.jpg");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.xian{
+	background-image: url("../images/bgc1.jpg");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+.taipei{
+	background-image: url("../images/bgc1.jpg");
+	background-size: 400px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+}
+
+a {
+	color: black;
+	font-size: 18px;
+}
+
+.slot3{
+	padding-top: 25px;
 }
 
 #contact .card:hover i,#contact .card:hover h4{
-	color: rgb(0, 179, 227);
+	color: white;
 }
 
 /* Medium Devices, .visible-md-* */
@@ -62,6 +167,9 @@ h2{
     max-width: 100%;
     height: auto;
 	}
+  .slot{
+  	right: 6%;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -70,6 +178,9 @@ h2{
       width: 100%;
       height: auto;
   	}
+  .slot{
+  	right: 6%;
+  }
 }
 
 /* Custom, iPhone Retina */
@@ -78,4 +189,11 @@ h2{
       width: 100%;
       height: auto;
   	}
+  .slot{
+  	right: 6%;
+  }
+  #duo{
+
+
+  }
 }
