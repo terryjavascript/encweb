@@ -24,6 +24,21 @@ body{
 	left: 3%
 }
 
+#txt3{
+	top: 0%;
+	color: black;
+	text-shadow: none;
+	padding-left: 70px;
+}
+
+#txt4{
+	font-size: 16px;
+	top: 8%;
+	color: black;
+	text-shadow: none;
+	padding-left: 70px;
+}
+
 
 @media (max-width:767px){
 	.content {
@@ -74,14 +89,17 @@ body{
 }
 
 .map-container {
-	width: 75%;
+	width: 70%;
 	height: auto;
 	float: right;
+	padding-top: 80px;
+	padding-right: 25px;
+
 }
 
 #map {
-	width: 1000px;
-	height: 610px;
+	width: 100%;
+	height: auto;
 }
 
 #cities {
