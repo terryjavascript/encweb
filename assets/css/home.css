@@ -88,6 +88,8 @@ body{
     }
 }
 
+/* global network map */
+
 .map-container {
 	width: 70%;
 	height: auto;
@@ -97,23 +99,77 @@ body{
 
 }
 
+.fas{
+	position: absolute;
+	color:  rgb(0, 179, 227)
+}
+
 #map {
 	width: 850px;
 	height: 480px;
 }
 
 #los-angeles {
-	position: absolute;
 	top: 34%;
 	left: 36%;
 }
 
 #san-francisco {
-	position: absolute;
 	top: 32%;
 	left: 35.5%;
+}
+
+#dallas{
+	top: 35%;
+	left: 40%;
+}
+
+#austin{
+	top: 36.2%;
+	left: 40%;
+}
+
+#chicago{
+	top: 32%;
+	left: 43%;
+}
+
+#new-york{
 
 }
+
+#seoul{
+
+}
+
+#incheon{
+
+}
+
+#busan{
+
+}
+
+#singapore{
+
+}
+
+#shanghai{
+
+}
+
+#xian{
+
+}
+
+#chongqing{
+
+}
+
+#taiwan{
+
+}
+
 
 #cities .fas:hover{
 	color: white;
