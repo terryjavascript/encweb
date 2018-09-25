@@ -148,7 +148,12 @@ h2{
     background-blend-mode: lighten;
 }
 
-a {
+p {
+	color: black;
+	font-size: 18px;
+}
+
+.link{
 	color: black;
 	font-size: 18px;
 }

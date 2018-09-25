@@ -98,23 +98,52 @@ body{
 }
 
 #map {
-	width: 100%;
-	height: auto;
-}
-
-#cities {
-	list-style: none;
-	position: relative;
-}
-
-#cities li {
-	position: absolute;
+	width: 850px;
+	height: 480px;
 }
 
 #los-angeles {
-	top: -400px;
-	
+	position: absolute;
+	top: 34%;
+	left: 36%;
 }
+
+#san-francisco {
+	position: absolute;
+	top: 32%;
+	left: 35.5%;
+
+}
+
+#cities .fas:hover{
+	color: white;
+}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+# {
+	width: 100%;
+	height: auto;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+# {
+	width: 100%;
+	height: auto;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+# {
+	width: 100%;
+	height: auto;
+	}
+}
+
 
 /*-----------------Scrollbar-----------------*/
 
