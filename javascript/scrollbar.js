@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".main").onepage_scroll({
       sectionContainer: "section",
-      responsiveFallback: 600,
+      responsiveFallback: 900, // 600, mobile responsive
       loop: true
     });
   });
@@ -214,17 +214,17 @@ $(document).ready(function(){
         if(typeOfRF == "number"){
           valForTest = $(window).width() < settings.responsiveFallback;
         }
-        if(typeOfRF == "boolean"){
-          valForTest = settings.responsiveFallback;
-        }
-        if(typeOfRF == "function"){
-          valFunction = settings.responsiveFallback();
-          valForTest = valFunction;
-          typeOFv = typeof valForTest;
-          if(typeOFv == "number"){
-            valForTest = $(window).width() < valFunction;
-          }
-        }
+        // if(typeOfRF == "boolean"){
+        //   valForTest = settings.responsiveFallback;
+        // }
+        // if(typeOfRF == "function"){
+        //   valFunction = settings.responsiveFallback();
+        //   valForTest = valFunction;
+        //   typeOFv = typeof valForTest;
+        //   if(typeOFv == "number"){
+        //     valForTest = $(window).width() < valFunction;
+        //   }
+        // }
   
         //end modification
         if (valForTest) {
