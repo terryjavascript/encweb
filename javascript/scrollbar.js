@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(".main").onepage_scroll({
       sectionContainer: "section",
-      responsiveFallback: 600, // 600, mobile responsive
+      responsiveFallback: 400, // 600, mobile responsive
       loop: true
     });
   });
