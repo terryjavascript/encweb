@@ -60,11 +60,22 @@ body {
 }
 
 
+
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.imgTxt {
-    	font-size: 3.0em;
+    	font-size: 2.8em;
 		height: auto;
+		left: 0%;
+	}
+	.logopng{
+		width: 93%;
+	}	
+	#txt4{
+		font-size: 15px;
+	}
+	#footer{
+		height: 90%;
 	}
 }
 
@@ -73,6 +84,29 @@ body {
 	.imgTxt {
   		font-size: 2.2em;
 		height: auto;
+		left: 0%;
+		top: 6%;
+	}
+	#txt2{
+		top: 13%;
+	}
+	#txt3{
+		font-size: 30px;
+	}
+	#txt4{
+		font-size: 14px;
+	}
+	.mainImg{
+		position: absolute;
+		width: 350%;
+		margin-left: -50px;
+		padding-right: 10px;
+	}
+	.logopng{
+		width: 93%;
+	}	
+	#footer{
+		padding-bottom: -100px;
 	}
 }
 
@@ -138,7 +172,7 @@ body {
 }
 
 #los-angeles {
-	top: 33.3%; 
+	top: 34.3%; 
 	right: 22.8%;
 }
 
@@ -151,7 +185,7 @@ body {
 }
 
 #san-francisco {
-	top: 32%;
+	top: 32.5%;
 	right: 23.5%;
 }
 
@@ -164,7 +198,7 @@ body {
 }
 
 #dallas{
-	top: 35.3%;
+	top: 36.2%;
 	right: 18.2%;
 }
 
@@ -178,7 +212,7 @@ body {
 
 
 #austin{
-	top: 36.9%;
+	top: 37.8%;
 	right: 18.8%;
 }
 
@@ -204,7 +238,7 @@ body {
 }
 
 #new-york{
-	top: 30.2%;
+	top: 29.8%;
 	right: 12%;
 }
 
@@ -412,8 +446,10 @@ body {
 	display: none;
 	}
 #mapImg{
-	top: 30%;
-}
+	width: 100%;
+	padding-top: 5%;
+	padding-left: 5%;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -421,8 +457,11 @@ body {
 .fas{
 	display: none;
 	}
-
-
+#mapImg{
+	width: 100%;
+	padding-top: 5%;
+	padding-left: 5%;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -430,204 +469,5 @@ body {
 .fas{
 	display: none;
 	}
-}
-
-
-/*-----------------Scrollbar-----------------*/
-
-body, html {
-	margin: 0;
-	overflow: hidden;
-	-webkit-transition: opacity 400ms;
-	-moz-transition: opacity 400ms;
-	transition: opacity 400ms;
-}
-
-body, .onepage-wrapper, html {
-	display: block;
-	position: static;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.onepage-wrapper {
-	width: 100%;
-	height: 100%;
-	display: block;
-	position: relative;
-	padding: 0;
-	-webkit-transform-style: preserve-3d;
-}
-
-.onepage-wrapper .section {
-	width: 100%;
-	height: 100%;
-}
-
-.onepage-pagination {
-	position: absolute;
-	right: 10px;
-	top: 50%;
-	z-index: 5;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-.onepage-pagination li {
-	padding: 0;
-	text-align: center;
-}
-.onepage-pagination li a{
-	padding: 10px;
-	width: 4px;
-	height: 4px;
-	display: block;
-
-}
-.onepage-pagination li a:before{
-	content: '';
-	position: absolute;
-	width: 4px;
-	height: 4px;
-	background: rgba(0,0,0,0.85);
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-}
-
-.onepage-pagination li a.active:before{
-	width: 10px;
-	height: 10px;
-	background: none;
-	border: 1px solid black;
-	margin-top: -4px;
-	left: 8px;
-}
-
-.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
-	overflow: auto;
-}
-
-.disabled-onepage-scroll .onepage-wrapper .section {
-	position: relative !important;
-	top: auto !important;
-	left: auto !important;
-}
-.disabled-onepage-scroll .onepage-wrapper {
-	-webkit-transform: none !important;
-	-moz-transform: none !important;
-	transform: none !important;
-	-ms-transform: none !important;
-	min-height: 100%;
-}
-
-
-.disabled-onepage-scroll .onepage-pagination {
-	display: none;
-}
-
-body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
-	position: inherit;
-}
-
-/*--------This was in HTML of Scrollbar---------- */
-
-html {
-	height: 100%;
-}
-
-body {
-	padding: 0;
-	text-align: center;
-	position: relative;
-	margin: 0;
-	height: 100%;
-	-webkit-font-smoothing: antialiased;
-}
-	
-.wrapper {
-	height: 100% !important;
-	height: 100%;
-	margin: 0 auto; 
-	overflow: hidden;
-}
-
-a {
-	text-decoration: none;
-}
-
-.main {
-	float: left;
-	width: 100%;
-	margin: 0 auto;
-}
-
-header {
-	position: relative;
-	z-index: 10;
-}
-
-.main section  {
-	overflow: hidden;
-}
-
-/* .main section.page1 {
-	background:rgb(230, 217, 200);
-}
-
-.main section.page2 {
-	background: #555557 url(back-phone.png) no-repeat center -150px ;
-}
-
-.main section.page3 {
-	background:url(tilted-phone.png) no-repeat 156px -150px ;
-} */
-
-body.disabled-onepage-scroll .onepage-wrapper  section {
-	min-height: 100%;
-	height: auto;
-}
-
-body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
-	padding: 20px;
-	margin-top: 150px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-body.disabled-onepage-scroll  section .page_container h1{
-	text-align: center;
-	font-size: 50px;
-}
-body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
-	text-align: center;
-	width: 100%;
-}
-
-body.disabled-onepage-scroll .main section.page1 > img {
-	position: absolute;
-	width: 80%;
-	left: 10%;
-}
-
-body.disabled-onepage-scroll .main section > img {
-	position: relative;
-	max-width: 80%;
-	bottom: 0;
-}
-body.disabled-onepage-scroll code {
-	width: 95%;
-	margin: 0 auto 25px;
-	float: none;
-	overflow: hidden;
-}
-
-body.disabled-onepage-scroll .main section.page3 .page_container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	right: 0;
 }
 
