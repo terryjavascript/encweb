@@ -96,17 +96,11 @@ body {
 	#txt4{
 		font-size: 14px;
 	}
-	.mainImg{
-		position: absolute;
-		width: 350%;
-		margin-left: -50px;
-		padding-right: 10px;
-	}
 	.logopng{
 		width: 93%;
 	}	
 	#footer{
-		padding-bottom: -100px;
+		height: 80%;
 	}
 }
 
@@ -458,11 +452,19 @@ body {
 	display: none;
 	}
 #mapImg{
-	width: 100%;
-	padding-top: 5%;
-	padding-left: 5%;
-	}
+	display: none;
 }
+.clockImg{
+	display: none;
+}
+.timezone{
+	position: absolute;
+	margin: auto;
+	bottom: 35%;
+	left: 7%;
+}
+
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
@@ -470,4 +472,5 @@ body {
 	display: none;
 	}
 }
+
 

@@ -174,6 +174,10 @@ p {
 	color: white;
 }
 
+#contact .card:hover p{
+	color:blue;
+}
+
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   #bannerPic{
