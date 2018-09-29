@@ -120,8 +120,8 @@ body {
 	width: 80%;
 	height: auto;
 	float: right;
-	padding-top: 45px;
-	padding-right: 25px;
+	padding-top: 53px;
+	padding-right: 20px;
 
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 #los-angeles {
-	top: 34.7%; 
+	top: 33.3%; 
 	right: 22.8%;
 }
 
@@ -151,7 +151,7 @@ body {
 }
 
 #san-francisco {
-	top: 32.5%;
+	top: 32%;
 	right: 23.5%;
 }
 
@@ -164,7 +164,7 @@ body {
 }
 
 #dallas{
-	top: 35%;
+	top: 35.3%;
 	right: 18.2%;
 }
 
@@ -178,7 +178,7 @@ body {
 
 
 #austin{
-	top: 36.2%;
+	top: 36.9%;
 	right: 18.8%;
 }
 
@@ -204,8 +204,8 @@ body {
 }
 
 #new-york{
-	top: 32%;
-	right: 12.7%;
+	top: 30.2%;
+	right: 12%;
 }
 
 #new-york:hover .showmeonhover{
@@ -269,7 +269,7 @@ body {
 }
 
 #shanghai{
-	top: 34.7%;
+	top: 34.3%;
 	left: 35%;
 }
 
@@ -282,8 +282,8 @@ body {
 }
 
 #xian{
-	top: 34%;
-	left: 32.6%;
+	top: 35.5%;
+	left: 32%;
 }
 
 #xian:hover .showmeonhover{
@@ -295,8 +295,8 @@ body {
 }
 
 #chongqing{
-	top: 36%;
-	left: 32.6%;
+	top: 37%;
+	left: 32%;
 }
 
 #chongqing:hover .showmeonhover{
@@ -309,7 +309,7 @@ body {
 
 #taiwan{
 	top: 39%;
-	left: 36.6%;
+	left: 37%;
 }
 
 #taiwan:hover .showmeonhover{
@@ -339,23 +339,65 @@ body {
 	font-weight: bold;
 }
 
-#cities .mover:hover{
-	padding-right: 100px;
+#cities .lax:hover{
+	padding-left: 100px;
+}
+
+#cities .sfo:hover{
+	padding-left: 70px;
+}
+
+#cities .dal:hover{
+	padding-left: 85px;
+}
+
+#cities .aus:hover{
+	padding-left: 85px;
 }
 
 #cities .chik:hover{
+	padding-left: 100px;
+}
+
+#cities .nyc:hover{
+	padding-left: 70px;
+}
+
+#cities .seo:hover{
+	padding-left: 70px;
+}
+
+#cities .icn:hover{
 	padding-left: 60px;
 }
 
-
-#cities .lax:hover{
-	padding-right: 50px;
+#cities .bus:hover{
+	padding-left: 80px;
 }
 
-#cities .movin:hover{
-	padding-left: 50px;
+#cities .sin:hover{
+	padding-left: 110px;
 }
 
+#cities .sha:hover{
+	padding-left: 100px;
+}
+
+#cities .xia:hover{
+	padding-left: 75px;
+}
+
+#cities .ckg:hover{
+	padding-left: 75px;
+}
+
+#cities .tai:hover{
+	padding-left: 90px;
+}
+
+#cities .fra:hover{
+	padding-left: 70px;
+}
 
 .showmeonhover{ 
 	display: none;
@@ -369,6 +411,9 @@ body {
 .fas{
 	display: none;
 	}
+#mapImg{
+	top: 30%;
+}
 }
 
 /* Small Devices, Tablets */
@@ -376,8 +421,9 @@ body {
 .fas{
 	display: none;
 	}
-}
 
+
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
