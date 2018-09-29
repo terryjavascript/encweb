@@ -1,37 +1,36 @@
-body{
+body {
 	max-width: 100%;
 	font-family:'Arimo', sans-serif !important;
 }
 
-#slide{
+#slide {
 	width: 100%;
 	height: 580px;
 }
 
-.imgTxt{
+.imgTxt {
 	position: absolute;
 	font-size: 40px;
 	font-weight: bold;
 	color: white;
 	text-shadow: 2px 2px black;
-	top: 12%;
-	padding-left: 100px;
+	top: 10%;
+	padding-left: 70px;
 }
 
-#txt2{
+#txt2 {
 	font-size: 25px;
-	top: 21%;
-	left: 3%
+	top: 18.5%;
 }
 
-#txt3{
+#txt3 {
 	top: 0%;
 	color: black;
 	text-shadow: none;
 	padding-left: 70px;
 }
 
-#txt4{
+#txt4 {
 	font-size: 16px;
 	top: 8%;
 	color: black;
@@ -39,19 +38,10 @@ body{
 	padding-left: 70px;
 }
 
-
-@media (max-width:767px){
-	.content {
-		width: 100%;
-		height: 50%;
-    }
-}
-
-@media (max-width:767px){
-	#slide {
-		width: 100%;
-		height: 450px;
-    }
+.clockImg{
+	position: fixed;
+	top: 115%;
+	left: 9.5%;
 }
 
 .item {
@@ -65,43 +55,81 @@ body{
 }
 
 .certification {
-	padding-top:20px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 
-@media (max-width:767px){
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.imgTxt {
+    	font-size: 3.0em;
+		height: auto;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+	.imgTxt {
+  		font-size: 2.2em;
+		height: auto;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 767px) {
+	.imgTxt {
+    	font-size: 1.8em;
+		height: auto;
+	}
+	.logopng {
+		width: 75%;
+		height: auto;
+		margin-right: 20px;
+    }
 	.certification {
 		width: 80%;
 		height: auto;
 		padding-top:500px;
 		padding-left: 50px;
     }
-}
-
-@media (max-width:767px){
-	.logopng {
-		width: 75%;
+	#slide {
+		width: 100%;
 		height: auto;
-		margin-right: 20px;
-		
+    }
+	.content {
+		width: 100%;
+		height: 50%;
     }
 }
 
+
 /* global network map */
+.timezone{
+	position: absolute;
+	float: left;
+	width: 15%;	
+	margin: auto;
+	bottom: 22%;
+	left: 7%;
+		
+}
 
 .map-container {
-	width: 70%;
+	width: 80%;
 	height: auto;
 	float: right;
-	padding-top: 80px;
+	padding-top: 45px;
 	padding-right: 25px;
 
 }
 
 .fas{
-	position: absolute;
-	color:  rgb(0, 179, 227)
+	color: rgb(0, 179, 227);
+    position: absolute;
+	width: 100%;
+	height: auto;
 }
 
 #map {
@@ -110,93 +138,251 @@ body{
 }
 
 #los-angeles {
-	top: 34%;
-	left: 36%;
+	top: 34.7%; 
+	right: 22.8%;
+}
+
+#los-angeles:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #san-francisco {
-	top: 32%;
-	left: 35.5%;
+	top: 32.5%;
+	right: 23.5%;
+}
+
+#san-francisco:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #dallas{
 	top: 35%;
-	left: 40%;
+	right: 18.2%;
 }
+
+#dallas:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
+}
+
 
 #austin{
 	top: 36.2%;
-	left: 40%;
+	right: 18.8%;
+}
+
+#austin:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #chicago{
-	top: 32%;
-	left: 43%;
+	top: 31%;
+	right: 14.5%;
+}
+
+#chicago:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #new-york{
+	top: 32%;
+	right: 12.7%;
+}
 
+#new-york:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #seoul{
+	top: 32%;
+	left: 36.8%;
+}
 
+#seoul:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #incheon{
+	top: 32.3%;
+	left: 37.2%;
+}
 
+#incheon:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #busan{
+	top: 32.8%;
+	left: 37.5%;
+}
 
+#busan:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #singapore{
+	top: 49%;
+	left: 32.6%;
+}
 
+#singapore:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #shanghai{
+	top: 34.7%;
+	left: 35%;
+}
 
+#shanghai:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #xian{
+	top: 34%;
+	left: 32.6%;
+}
 
+#xian:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #chongqing{
+	top: 36%;
+	left: 32.6%;
+}
 
+#chongqing:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
 }
 
 #taiwan{
-
+	top: 39%;
+	left: 36.6%;
 }
 
+#taiwan:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
+}
+
+#frankfurt{
+	top: 25.5%;
+	left: 8.5%;
+}
+
+#frankfurt:hover .showmeonhover{
+    display: inline;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 10px;
+	color: black;
+}
 
 #cities .fas:hover{
-	color: white;
+	color: red;
+	padding-left: 40px;
+	font-weight: bold;
 }
+
+#cities .mover:hover{
+	padding-right: 100px;
+}
+
+#cities .chik:hover{
+	padding-left: 60px;
+}
+
+
+#cities .lax:hover{
+	padding-right: 50px;
+}
+
+#cities .movin:hover{
+	padding-left: 50px;
+}
+
+
+.showmeonhover{ 
+	display: none;
+	padding: 4px; 
+	font-weight: bold;
+}
+
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
-# {
-	width: 100%;
-	height: auto;
+.fas{
+	display: none;
 	}
 }
 
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-# {
-	width: 100%;
-	height: auto;
+.fas{
+	display: none;
 	}
 }
 
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
-# {
-	width: 100%;
-	height: auto;
+.fas{
+	display: none;
 	}
 }
 
@@ -398,3 +584,4 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 	margin-right: auto;
 	right: 0;
 }
+

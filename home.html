@@ -75,7 +75,6 @@
 
 <div class="wrapper"> 
   <div class="main">
-
     <!--image slideshow-->
     <section class="page1">
       <div class="container-fluid">
@@ -92,32 +91,64 @@
     <!--global map image -->
     <section class="page2">
       <div class="container-fluid">
-        <p class="imgTxt" id="txt3">ENC Global Network</p>
+        <p class="imgTxt" id="txt3"><a href="global.html"> ENC Global Network</a></p>
         <p class="imgTxt" id="txt4">In coordination with our global branches and over 50 partners around the world, we provide customers with various logistic services.</p>
-        <div class="map-container">
-          <img id="map" src="assets/images/simple_world_map.png" usemap="#world">
-          <map name="world">
-            <!--West Coast-->
-            <area shape="circle" coords="73, 160, 14" href="#">
-            <!--West Coast-->
-            <!--West Coast-->                      
-          </map>
-          <ul id="cities">
 
-            <li id="los-angeles" class="fas fa-map-marker-alt"></li>
-            <li id="san-francisco" class="fas fa-map-marker-alt"></li>
-            <li id="dallas" class="fas fa-map-marker-alt"></li>
-            <li id="austin" class="fas fa-map-marker-alt"></li>
-            <li id="chicago" class="fas fa-map-marker-alt"></li>
-            <li id="new-york" class="fas fa-map-marker-alt"></li>
-            <li id="seoul" class="fas fa-map-marker-alt"></li>
-            <li id="incheon" class="fas fa-map-marker-alt"></li>
-            <li id="busan" class="fas fa-map-marker-alt"></li> 
-            <li id="singapore" class="fas fa-map-marker-alt"></li>
-            <li id="shanghai" class="fas fa-map-marker-alt"></li>
-            <li id="xian" class="fas fa-map-marker-alt"></li>
-            <li id="chongqing" class="fas fa-map-marker-alt"></li> 
-            <li id="taiwan" class="fas fa-map-marker-alt"></li>                                             
+        <div class="clockImg">
+          <img src="assets/images/clock.png" width="120" height="120">
+        </div>
+        
+      <div class="timezone""><iframe src="https://localtimes.info/timediff.php?lcid=USCA0638,USTX0327,USNY0996,USIL0225,CHXX0116,SNXX0006,KSXX0037,GMXX0007&cp=000000,FFFFFF&uc=0" seamless="" frameborder="0" width="190" height="293" style="background:white"></iframe><a rel="external" target="_top" href="http://localtimes.info/difference/?lcid=USCA0638,USTX0327,USNY0996,USIL0225,CHXX0116,SNXX0006,KSXX0037,GMXX0007" title="Time Converter" style="color:#000000;"><span style="font-size:10px; font-family:verdana;geneva;line-height:18px;"></span></a></div>
+      
+        <div class="map-container">
+          <img id="Image-Maps_5201211070133251" src="assets/images/simple_world_map.png" semap="#Image-Maps_5201211070133251" border="0" width="100%" alt="" />
+
+          <ul id="cities">
+            <li id="los-angeles" class="fas fa-map-marker-alt lax">
+              <span class="showmeonhover">ENC LAX (HQ)</span>
+            </li>
+            <li id="san-francisco" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC SFO</span>
+            </li>
+            <li id="dallas" class="fas fa-map-marker-alt movin">
+              <span class="showmeonhover">ENC Dallas</span>
+            </li>
+            <li id="austin" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC Austin</span>
+            </li>
+            <li id="chicago" class="fas fa-map-marker-alt chik">
+              <span class="showmeonhover">ENC Chicago</span>
+            </li>
+            <li id="new-york" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC NYC</span>
+            </li>
+            <li id="seoul" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC Seoul</span>
+            </li>
+            <li id="incheon" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC ICN</span>
+            </li>
+            <li id="busan" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC Busan</span>
+            </li> 
+            <li id="singapore" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC Singapore</span>
+            </li>
+            <li id="shanghai" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC Shanghai</span>
+            </li>
+            <li id="xian" class="fas fa-map-marker-alt mover">
+              <span class="showmeonhover">ENC Xi'an</span>
+            </li>
+            <li id="chongqing" class="fas fa-map-marker-alt mover">
+              <span class="showmeonhover">ENC CKG</span>
+            </li> 
+            <li id="taiwan" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC Taiwan</span>
+            </li>
+            <li id="frankfurt" class="fas fa-map-marker-alt">
+              <span class="showmeonhover">ENC FRA</span>
+            </li>
           </ul>
         </div>
       </div>
@@ -221,6 +252,7 @@
 <!--file scripts-->
   <script type="text/javascript" src="javascript/slideshow.js"></script>
   <script type="text/javascript" src="javascript/scrollbar.js"></script>
+  <script type="text/javascript" src="javascript/map.js"></script>
 <!-- bootstrap javascript-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

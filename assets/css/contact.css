@@ -148,6 +148,13 @@ h2{
     background-blend-mode: lighten;
 }
 
+.frank{
+	background-image: url("../images/bgc14.jpg");
+	background-size: 475px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;	
+}
+
 p {
 	color: black;
 	font-size: 18px;
@@ -197,9 +204,5 @@ p {
   	}
   .slot{
   	right: 6%;
-  }
-  #duo{
-
-
   }
 }
