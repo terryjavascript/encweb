@@ -59,6 +59,10 @@ body {
 	padding-bottom: 20px;
 }
 
+.logo{
+	visibility: hidden;
+}
+
 
 
 /* Medium Devices, .visible-md-* */
@@ -96,9 +100,11 @@ body {
 		top: 3%;
 	}
 	#txt4{
-		font-size: 12px;
+		font-size: 14px;
 		padding-left: 35px;
 		top: 13%;
+		width: 97%;
+		text-align: justify;
 	}
 	.logopng{
 		width: 93%;
@@ -118,6 +124,13 @@ body {
 	.imgTxt {
     	font-size: 1.8em;
 		height: auto;
+		padding-top: 10px;
+		padding-left: 20px;
+	}
+	#txt2{
+		font-size: 18px;
+		padding-top: 2px;
+
 	}
 	.logopng {
 		width: 75%;
@@ -125,14 +138,15 @@ body {
 		margin-right: 20px;
     }
 	.certification {
-		width: 80%;
+		width: 100%;
 		height: auto;
 		padding-top:500px;
 		padding-left: 50px;
+		margin-top: -80%;
     }
 	#slide {
 		width: 100%;
-		height: auto;
+		height: 475px;
     }
 	.content {
 		width: 100%;
@@ -141,13 +155,23 @@ body {
     #txt3{
 		font-size: 30px;
 		left: -5%;
-		top: 3%;
+		position: absolute;
+		top: 2%;
 	}
 	#txt4{
-		font-size: 11px;
+		font-size: 13px;
 		left: -5%;
-		top: 13%;
-		text-overflow: 
+		top: 12%;
+		width: 98%;	
+		text-align: justify;
+	}
+	.item{
+		display: none;
+	}
+	.logo{
+		visibility: visible;
+		padding-top: 30px;
+		padding-left: -10px;
 	}
 }
 
@@ -517,7 +541,7 @@ hr.divider {
 }
 
 .wTxt {
-	font-size: 25px;
+	font-size: 27px;
 	padding-top: 10px;
 	font-weight: bold;
 }
@@ -534,6 +558,10 @@ hr.divider {
 
 .ddC{
 	margin-top: 10px;
+}
+
+.bugFix{
+	height: 20%;	
 }
 
 	/* Medium Devices, .visible-md-* */
@@ -567,7 +595,13 @@ hr.divider {
 	}
 	.unit{
 		left: -2%;
+		margin-top: 110px;
+		margin-right: -5px;
 	}
+	.wTxt{
+		font-size: 20px;
+	}
+
 }
 
 
