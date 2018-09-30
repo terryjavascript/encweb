@@ -87,8 +87,7 @@ section .section-title {
         padding-left: 0;
         padding-top: auto;
         border-left: transparent;
-        padding-bottom: 5px;
-        font-size: 90%;
+        margin-top: -30px;
     }
     .fa{
         font-size: 90%;
