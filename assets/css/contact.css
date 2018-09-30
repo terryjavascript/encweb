@@ -32,6 +32,7 @@ h2{
 
 .msg3{
 	color: rgb(0, 179, 227);
+	text-decoration: underline;
 }
 
 .txt{
@@ -176,6 +177,10 @@ p {
 
 #contact .card:hover p{
 	color:blue;
+}
+
+#futxt{
+	font-size: 14px;
 }
 
 /* Medium Devices, .visible-md-* */

@@ -96,12 +96,12 @@ body {
 	}
 	#txt3{
 		font-size: 37px;
-		padding-left: 35px;
+		left: -2%;
 		top: 3%;
 	}
 	#txt4{
 		font-size: 14px;
-		padding-left: 35px;
+		left: -2%;
 		top: 13%;
 		width: 97%;
 		text-align: justify;
@@ -531,11 +531,11 @@ body {
 
 .unit {
 	width: 20%;
-	height: 340px;
+	height: 380px;
 	border-style: solid;
 	border-width: thin;
 	border-radius: 25px;
-	margin-top: 12%;
+	margin-top: 8%;
 	margin-left: 5%;
 	left: 15%;
 }
@@ -568,6 +568,10 @@ hr.divider {
 	height: 20%;	
 }
 
+.icons {
+	padding-top: 20px;
+}
+
 	/* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.nonWeb{
@@ -587,6 +591,7 @@ hr.divider {
 	}
 	.unit{
 		left: -2%;
+		margin-top: 12%;
 	}
 }
 
