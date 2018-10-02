@@ -29,6 +29,9 @@
 }
 
 @media (max-width:767px){
+    .navbar{
+        text-align: center;
+    }
     .dropdown-menu{
         text-align: center;
     }
