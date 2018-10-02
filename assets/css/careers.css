@@ -18,7 +18,9 @@ h2{
 }
 
 h4{
-	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: -15px;
+	font-size: 13px;
 }
 
 .msg2{
@@ -36,6 +38,7 @@ h4{
 .badge{
 	background-color: rgb(0, 179, 227);
 	display: inline-block;
+	font-size: 16px;
 }
 
 .outline{
@@ -56,19 +59,27 @@ img{
 }
 
 .card-body{
-	padding:15px;
+	padding:12px;
 }
 .card-text{
-	padding-top: 18px;
+	padding-top: 0px;
 }
 
 .push{
 	padding-left: 40px;
 }
 
+.mobileR{
+	font-size: 15px;
+	visibility: hidden;
+}
+
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 400px) and (max-width: 1199px) {	
+	h4{
+		font-size: 14px;
+	}
 	.flagpic{
     	width: 100%;
     	height: auto;
@@ -78,26 +89,35 @@ img{
     	height: auto;
     }
     .badge{
-    	width: 100%;
-    	height: auto;
+    	visibility: hidden;
+ 	}
+ 	.mobileR{
+ 		visibility: visible;
  	}
 }
 
 @media (min-width: 750px) and (max-width: 990px) {	
 	h4{
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.badge{
 		display: none;
+
+	}
+	.mobileR{
+		visibility: visible;
 	}
 }
 
 
 @media only screen and (max-width: 767px) {
 	h4{
- 		font-size: 12px;
+ 		font-size: 10px;
  	}
  	.badge{
 		display: none;
+	}
+	.mobileR{
+		visibility: visible;
 	}
 }
