@@ -6,6 +6,10 @@
     /*font-size: */
 }
 
+.dropdown-menu{
+    text-align: center;
+}
+
 .navbar-brand {
     position: relative; 
     z-index: 2; 
