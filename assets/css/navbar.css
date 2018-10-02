@@ -6,9 +6,6 @@
     /*font-size: */
 }
 
-.dropdown-menu{
-    text-align: center;
-}
 
 .navbar-brand {
     position: relative; 
@@ -28,5 +25,11 @@
         width: 100px;
         margin-left: -50px;
         padding-right: 10px;
+    }
+}
+
+@media (max-width:767px){
+    .dropdown-menu{
+        text-align: center;
     }
 }
