@@ -29,7 +29,7 @@
 	}	
 }
 
-/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
   .btxt{
       font-size: 2.2em;
@@ -43,16 +43,31 @@
 	}	
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
   .btxt{
-      font-size: 1.8em;
+      font-size: 2.0em;
       top: 23%;
-      left: 63%;
+      left: 40%;
 	}
   .btxt2{
       font-size: 2.3em;
-      left: 67%;
+      left: 40%;
       top: 30%;
 	}		
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+  .btxt{
+      font-size: 1.4em;
+      top: 23%;
+      left: 35%;
+  }
+  .btxt2{
+      font-size: 1.7em;
+      left: 35%;
+      top: 30%;
+  }   
+
 }

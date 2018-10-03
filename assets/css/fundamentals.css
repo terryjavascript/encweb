@@ -61,43 +61,45 @@ h2{
 
 }
 
-/* Small Devices, Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
   #bannerPic{
       width: 100%;
       height: auto;
   }
   .upperPic{
-    width: 350px;
-    height: 290px; 
-    padding-top: 45px;
-    padding-right: 10px;
+    width: 100%;
+    height: auto; 
+    padding-top: 20px;
   }
   .bottomPic{
-    width: 350px;
-    height: 270px; 
-    padding-top: 45px;
-    padding-left: 10px;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
   }
 }
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
   #bannerPic{
       width: 100%;
       height: auto;
   }
   .upperPic{
     width: 250px;
-    height: 232px; 
-    padding-top: 45px;
-    padding-right: 10px;
+    height: auto; 
+    padding-top: 10%;
+    padding-left: 10%;
+    border-radius: 5px;
   }
   .bottomPic{
     width: 250px;
-    height: 213px; 
-    padding-top: 45px;
-    padding-left: 10px;
+    height: 150px; 
+    padding-top: 0%;
+    padding-left: 10%;
+    border-radius: 5px;
   }
+
 }
+

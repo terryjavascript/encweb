@@ -60,7 +60,7 @@ h2{
 
 }
 
-/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 	#bannerPic{
     	width: 100%;
@@ -81,8 +81,27 @@ h2{
 }
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+ 	.upperPic{
+		width: 100%;
+		height: auto; 
+		padding-top: 20px;
+	}
+	.bottomPic{
+		width: 100%;
+		height: auto;
+		padding-top: 30px;
+	}
+}
+
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
 	#bannerPic{
     	width: 100%;
     	height: auto;
@@ -90,13 +109,16 @@ h2{
  	.upperPic{
 		width: 250px;
 		height: auto; 
-		padding-top: 45px;
+		padding-top: 5%;
+		padding-left: 10%;
 		border-radius: 5px;
 	}
 	.bottomPic{
 		width: 250px;
-		height: 213px; 
-		padding-top: 45px;
+		height: 150px; 
+		padding-top: 0%;
+		padding-left: 10%;
 		border-radius: 5px;
 	}
+
 }

@@ -13,12 +13,12 @@
 }
 
 /* Tablet */
-@media (min-width: 411px) and (max-width: 767px) {
+@media (min-width: 431px) and (max-width: 767px) {
 
 }
 
 
 /* Mobile Phone */
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 430px) {
 
 }
