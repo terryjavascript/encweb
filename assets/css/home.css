@@ -64,7 +64,6 @@ body {
 }
 
 
-
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.imgTxt {
@@ -83,7 +82,7 @@ body {
 	}
 }
 
-/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 	.imgTxt {
   		font-size: 2.2em;
@@ -119,8 +118,8 @@ body {
 }
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 411px) and (max-width: 767px) {
 	.imgTxt {
     	font-size: 1.8em;
 		height: auto;
@@ -179,6 +178,54 @@ body {
 	}
 }
 
+/* Mobile Phone */
+@media only screen and (max-width: 410px) {
+	#slide{
+		margin-top: 5%;
+		height: 380px;
+	}
+	.imgTxt {
+    	font-size: 1.7em;
+		margin-top: 2%;
+		padding-left: 5px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 1px 1px black;
+		
+	}
+	#txt2{
+		font-size: 16px;
+		margin-top: 1%;
+		padding-left: 35px;
+	}
+	.logo{
+		visibility: visible;
+		padding-top: 10px;
+	}
+	.logopng {
+		width: 75%;
+		height: auto;
+		margin-right: 20px;
+		padding-bottom: 20px;
+    }
+	.item{
+		display: none;
+	}
+    #txt3{
+		font-size: 30px;
+		position: absolute;
+		top: 0%;
+		left: -5%;
+	}
+	#txt4{
+		font-size: 13px;
+		left: -10%;
+		top: 8%;
+		width: 98%;	
+		text-align: justify;
+	}
+
+}
 
 /* global network map */
 .timezone{
@@ -491,7 +538,7 @@ body {
 	}
 }
 
-/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 	.fas{
 	display: none;
@@ -508,8 +555,25 @@ body {
 }
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 411px) and (max-width: 767px) {
+	.fas{
+	display: none;
+	}
+	#mapImg{
+	display: none;
+	}
+	.clockImg{
+	display: none;
+	}
+	.timezone{
+	display: none;
+	}
+}
+
+
+/* Mobile Phone */
+@media only screen and (max-width: 410px) {
 	.fas{
 	display: none;
 	}
@@ -572,7 +636,11 @@ hr.divider {
 	padding-top: 20px;
 }
 
-	/* Medium Devices, .visible-md-* */
+#ddC{
+	visibility: hidden;
+}
+
+/* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.nonWeb{
 		visibility: visible;
@@ -582,7 +650,7 @@ hr.divider {
 
 }
 
-	/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 	.nonWeb{
 		visibility: visible;
@@ -595,8 +663,8 @@ hr.divider {
 	}
 }
 
-	/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 411px) and (max-width: 767px) {
 	.nonWeb{
 		visibility: visible;
 		display: inline-block;
@@ -611,8 +679,35 @@ hr.divider {
 	.wTxt{
 		font-size: 20px;
 	}
-
-
 }
 
+/* Mobile Phone */
+@media only screen and (max-width: 410px) {
+	.nonWeb{
+		visibility: visible;
+		display: inline-block;
+		width: 100%;
+	}
+	.unit{
+		left: -1%;
+		margin-top: 80px;
+		margin-right: -5px;
+		height: 380px;
+	}
+	.wTxt{
+		font-size: 16px;
+	}
+	.bugFix{
+		height: 10%;	
+	}
+	.ddC{
+		display: none;
+	}
+	.ffC{
+		visibility: visible;
+		position: absolute;
+		bottom: 20%;
+		left: 40%;
+	}
+}
 

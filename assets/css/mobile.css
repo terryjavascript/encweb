@@ -1,0 +1,24 @@
+/*MOBILE QUERY SETTINGS FOR ENC-INC */
+
+
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Tablet */
+@media (min-width: 411px) and (max-width: 767px) {
+
+}
+
+
+/* Mobile Phone */
+@media only screen and (max-width: 410px) {
+
+}

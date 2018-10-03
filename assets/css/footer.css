@@ -82,12 +82,11 @@ section .section-title {
     font-weight: 700;
 }
 
-@media (max-width:767px){
+@media only screen and (max-width: 410px){}
 	#footer {
         padding-left: 0;
-        padding-top: auto;
+        padding-top: 7%;
         border-left: transparent;
-        margin-top: -30px;
     }
     .fa{
         font-size: 90%;
