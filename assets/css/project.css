@@ -13,12 +13,11 @@ body{
 }
 
 .msgDiv{
-	padding: 35px 50px 30px 50px;
+	padding: 15px 50px 30px 50px;
 	font-family: 'Arimo', sans-serif;
 }	
 
 .commodities{
-
 	font-size: 100px;
 	padding-bottom: 20px;
 }
@@ -49,8 +48,8 @@ h5{
  	}
 }
 
-/* Small Devices, Tablets */
-@media (min-width: 748px) and (max-width: 991px) {
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
 	#bannerPic{
     	width: 100%;
     	height: auto;
@@ -59,10 +58,59 @@ h5{
 }
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
 	#bannerPic{
     	width: 100%;
     	height: auto;
 	}
+	.commodities{
+		font-size: 90px;
+		text-align: center;
+		
+	}
+	h1{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.pt-2{
+		font-size: 14px;
+	}
+	.logoPic{
+		width: 100px;
+		height: 100px;
+		padding-bottom: 
+	}
 }
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+	}
+	.msgDiv{
+		left: -10%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+	}
+	h1{
+		font-size: 22px;
+		font-weight: bold;
+	}
+	.commodities{
+		font-size: 80px;
+		text-align: center;
+
+	}
+	.pt-2{
+		font-size: 12px;
+	}
+	.logoPic{
+		width: 70px;
+		height: 65px;
+		padding-bottom: 
+	}
+}
+
