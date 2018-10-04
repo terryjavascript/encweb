@@ -62,6 +62,9 @@ h2{
 	.aTxt{
   		display: none;
  	}
+	.about{
+		font-size: 12px;
+	}
 }
 
 
@@ -94,7 +97,7 @@ h2{
 }
 .panel-table .td {
     display: table-cell;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-top: none;
     border-left: none;
