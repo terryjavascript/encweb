@@ -82,7 +82,7 @@ section .section-title {
     font-weight: 700;
 }
 
-@media only screen and (max-width: 410px){
+@media only screen and (max-width: 430px){
 	#footer {
         padding-left: 0;
         padding-top: 6%;

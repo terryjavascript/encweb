@@ -36,7 +36,7 @@ h2{
 }
 
 .slot{
-	padding: 30px 0px 50px 80px;
+	padding: 30px 20px 10px 70px;
 }
 
 .slot2{
@@ -160,10 +160,6 @@ p {
 	font-size: 18px;
 }
 
-.slot3{
-	padding-top: 25px;
-}
-
 
 #contact .card:hover i,#contact .card:hover h4{
 	color: white;
@@ -247,31 +243,29 @@ p {
   		left: -15%;
   	}
   	.slot2{
-  		width: 175px;
-  		height: 175px;
+  		width: 170px;
+  		height: 170px;
   		background-size: 250px;
   	}
   	.fa-envelope-o {
   		visibility: hidden;
   	}
   	p {
-		font-size: 14px;
+		  font-size: 14px;
   	}
   	.link{
   		padding-top: 20px;
   		font-size: 16px;
+		  color: white;
+		  text-shadow: 1px 1px black;
   	}
   	h4{
   		font-size: 13px;
   		font-weight: bold;
-		border-style: solid;
-		border-width: medium;
-		width: 132px;
-		margin-left: 20px;
-		margin-top: 30px;
-
-  	}
-  	.slot3{
-  		padding-top: 0px;
+		  border-style: solid;
+	   	border-width: medium;
+		  width: 132px;
+		  margin-left: 20px;
+		  margin-top: 15px;
   	}
 }
