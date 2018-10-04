@@ -317,12 +317,12 @@ p {
     }
     p {
       font-size: 14px;
+      color: black;
+      text-shadow: 1px 1px white;
     }
     .link{
       padding-top: 20px;
-      font-size: 16px;
-      color: white;
-      text-shadow: 1px 1px black;
+      font-size: 14px;
     }
     h4{
       font-size: 13px;
