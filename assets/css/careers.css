@@ -45,7 +45,7 @@ h4{
 	border-style: solid;
 	border-width: medium;
 	border-radius: 25px;
-	padding: 40px 10px 40px 20px;	
+	padding: 40px 30px 40px 20px;	
 }
 
 .txt{
@@ -66,7 +66,7 @@ img{
 }
 
 .push{
-	padding-left: 40px;
+	padding-left: 30px;
 }
 
 .mobileR{
@@ -76,7 +76,7 @@ img{
 
 
 /* Medium Devices, .visible-md-* */
-@media (min-width: 400px) and (max-width: 1199px) {	
+@media (min-width: 992px) and (max-width: 1199px) {
 	h4{
 		font-size: 14px;
 	}
@@ -96,7 +96,12 @@ img{
  	}
 }
 
-@media (min-width: 750px) and (max-width: 990px) {	
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    #bannerPic{
+    	width: 100%;
+    	height: auto;
+    }
 	h4{
 		font-size: 12px;
 	}
@@ -107,10 +112,19 @@ img{
 	.mobileR{
 		visibility: visible;
 	}
+	.flagpic{
+    	width: 100%;
+    	height: auto;
+    }
 }
 
 
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
+    #bannerPic{
+    	width: 100%;
+    	height: auto;
+    }
 	h4{
  		font-size: 10px;
  	}
@@ -119,5 +133,41 @@ img{
 	}
 	.mobileR{
 		visibility: visible;
+		font-size: 120%;
+		text-align: center;
 	}
+	.flagpic{
+    	width: 80%;
+    	height: auto;
+    	padding-left: 20%;
+    	padding-bottom: 5%;
+    }
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+    #bannerPic{
+    	width: 100%;
+    	height: auto;
+    }
+  	.msg{
+      font-size: 23px;
+      font-weight: bold;
+  	} 
+	.flagpic{
+    	width: 100%;
+    	height: auto;
+    	padding-bottom: 5%;
+    }
+	.mobileR{
+		visibility: visible;
+		font-size: 95%;
+	}
+ 	.badge{
+		display: none;
+	}
+	.mobileQ{
+		text-align: center;
+	}
+
 }

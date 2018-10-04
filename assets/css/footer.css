@@ -85,7 +85,7 @@ section .section-title {
 @media only screen and (max-width: 410px){
 	#footer {
         padding-left: 0;
-        padding-top: 5%;
+        padding-top: 6%;
         border-left: transparent;
     }
     .fa{
