@@ -705,8 +705,9 @@ hr.divider {
 	.ffC{
 		visibility: visible;
 		position: absolute;
-		bottom: 15%;
-		left: 40%;
+		bottom: -30%;
+		left: -210%;
+		
 	}
 }
 
