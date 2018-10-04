@@ -268,4 +268,16 @@ p {
 		  margin-left: 20px;
 		  margin-top: 15px;
   	}
+    .frank{
+        background-size: 320px;
+    }
+    .shang{
+        background-size: 280px;
+    }
+    .seoul{
+        background-size: 300px;
+    }
+    .nyc{
+        background-size: 270px;
+    }
 }
