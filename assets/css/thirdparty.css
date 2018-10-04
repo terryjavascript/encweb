@@ -77,24 +77,53 @@ h2{
 }
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
 	#bannerPic{
     	width: 100%;
     	height: auto;
  	}
  	.upperPic{
-		width: 250px;
+		width: 100%
 		height: auto; 
 		padding-top: 45px;
 		border-radius: 5px;
 		padding-right: 10px;
 	}
  	.bottomPic{
-		width: 254px;
+		width: 100%
 		height: auto; 
 		padding-top: 45px;
 		border-radius: 5px;
 		padding-left: 10px;
 	}
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+  #bannerPic{
+      width: 100%;
+      height: auto;
+  }
+  .upperPic{
+    width: 250px;
+    height: auto; 
+    padding-top: 10%;
+    padding-left: 10%;
+    border-radius: 5px;
+  }
+  .bottomPic{
+    width: 250px;
+    height: 150px; 
+    padding-top: 0%;
+    padding-left: 10%;
+    border-radius: 5px;
+  }
+  .msg{
+      font-size: 30px;
+      font-weight: bold;
+  } 
+  .msg3{
+      font-size: 22px;
+  }
 }

@@ -287,10 +287,6 @@ h2{
     width: 100%;
     height: auto;
   }
-  .msg{
-    font-size: 24px;
-    font-weight: bold;
-  }
 
   .timeline > li:nth-child(odd) {
     margin-bottom: 0px;
@@ -316,5 +312,19 @@ display: none;
   }
   .timeline > li .line {
     display: none;
+  }
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+  .text-muted{
+    font-size: 11px;
+  }
+    .msg{
+      font-size: 30px;
+      font-weight: bold;
+  } 
+    .msg3{
+      font-size: 22px;
   }
 }

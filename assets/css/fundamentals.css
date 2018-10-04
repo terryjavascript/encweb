@@ -61,6 +61,26 @@ h2{
 
 }
 
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #bannerPic{
+      width: 100%;
+      height: auto;
+  }
+  .upperPic{
+    width: 350px;
+    height: auto; 
+    padding-top: 45px;
+    border-radius: 5px;
+  }
+  .bottomPic{
+    width: 355px;
+    height: auto; 
+    padding-top: 45px;
+    border-radius: 5px;
+  }
+}
+
 /* Tablet */
 @media (min-width: 431px) and (max-width: 767px) {
   #bannerPic{
@@ -100,6 +120,12 @@ h2{
     padding-left: 10%;
     border-radius: 5px;
   }
-
+  .msg{
+      font-size: 30px;
+      font-weight: bold;
+  } 
+  .msg3{
+      font-size: 22px;
+  }
 }
 
