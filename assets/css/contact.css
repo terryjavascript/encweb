@@ -55,7 +55,7 @@ h2{
 .losA{
 	background-image: url("../images/bgc1.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 
 }
@@ -63,91 +63,91 @@ h2{
 .sanF{
 	background-image: url("../images/bgc2.jpeg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .dal{
 	background-image: url("../images/bgc3.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .aust{
 	background-image: url("../images/bgc4.jpg");
 	background-size: 380px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .chic{
 	background-image: url("../images/bgc5.jpg");
 	background-size: 300px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .nyc{
 	background-image: url("../images/bgc6.png");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .seoul{
 	background-image: url("../images/bgc7.jpg");
 	background-size: 450px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .incheon{
 	background-image: url("../images/bgc8.jpg");
 	background-size: 330px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .busan{
 	background-image: url("../images/bgc9.jpg");
 	background-size: 350px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .singa{
 	background-image: url("../images/bgc10.jpeg");
 	background-size: 310px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .shang{
 	background-image: url("../images/bgc11.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .xian{
 	background-image: url("../images/bgc12.jpg");
 	background-size: 350px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .taipei{
 	background-image: url("../images/bgc13.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;
 }
 
 .frank{
 	background-image: url("../images/bgc14.jpg");
 	background-size: 475px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     background-blend-mode: lighten;	
 }
 
