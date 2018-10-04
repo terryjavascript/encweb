@@ -21,19 +21,6 @@ h2{
 	font-family: 'Arimo', sans-serif;
 }
 
-.txt{
-	font-size: 14px;
-	color: #555;
-	line-height: 20px;
-}
-
-.upperPic{
-	padding-bottom: 20px;
-}
-
-.pagePic{
-	border-radius: 5px;
-}
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -41,51 +28,44 @@ h2{
     	width: 100%;
     	height: auto;
  	}
-	.pagePic{
-		width: 400px;
-		height: auto;
-	}
 }
 
-/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 	#bannerPic{
     	width: 100%;
     	height: auto;
  	}
- 	.upperPic{
-		width: 350px;
-		height: auto; 
-		padding-top: 45px;
-		border-radius: 5px;
-	}
-	.bottomPic{
-		width: 346px;
-		height: auto; 
-		padding-top: 45px;
-		border-radius: 5px;
-	}
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
 	#bannerPic{
     	width: 100%;
     	height: auto;
  	}
- 	.upperPic{
-		width: 250px;
-		height: auto; 
-		padding-top: 45px;
-		border-radius: 5px;
-	}
-	.bottomPic{
-		width: 246px;
-		height: auto; 
-		padding-top: 45px;
-		border-radius: 5px;
-	}
 }
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+	#bannerPic{
+    	width: 100%;
+    	height: auto;
+ 	}
+  	.msg{
+    	font-size: 30px;
+    	font-weight: bold;
+  	}	
+  	.msg3{
+  		font-size: 22px;
+ 	}
+	.aTxt{
+  		display: none;
+ 	}
+}
+
+
+
 
 /* snippet function */
 .panel-table {
