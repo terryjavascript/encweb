@@ -222,7 +222,7 @@ p {
 }
 
 /* Mobile Phone */
-@media only screen and (max-width: 430px) {
+@media (min-width: 404px) and (max-width: 430px) {
   #bannerPic{
     	width: 100%;
     	height: auto;
@@ -237,7 +237,7 @@ p {
     	margin-top: -10px;
   }  
   	.slot{
-  		left: -20%;
+  		left: -15%;
   	}
   	#slot{
   		left: -15%;
@@ -268,6 +268,67 @@ p {
 		  margin-left: 20px;
 		  margin-top: 15px;
   	}
+    .frank{
+        background-size: 320px;
+    }
+    .shang{
+        background-size: 280px;
+    }
+    .seoul{
+        background-size: 300px;
+    }
+    .nyc{
+        background-size: 270px;
+    }
+}
+
+/* iphoneX Phone */
+@media only screen and (max-width: 403px) {
+  #bannerPic{
+      width: 100%;
+      height: auto;
+    }
+    .msg{
+      font-size: 23px;
+      font-weight: bold;
+      margin-top: -10px;
+    }
+    .msg3{
+      font-size: 22px;
+      margin-top: -10px;
+  }  
+    .slot{
+      left: -20%;
+    }
+    #slot{
+      left: -15%;
+    }
+    .slot2{
+      width: 170px;
+      height: 170px;
+      background-size: 250px;
+    }
+    .fa-envelope-o {
+      visibility: hidden;
+    }
+    p {
+      font-size: 14px;
+    }
+    .link{
+      padding-top: 20px;
+      font-size: 16px;
+      color: white;
+      text-shadow: 1px 1px black;
+    }
+    h4{
+      font-size: 13px;
+      font-weight: bold;
+      border-style: solid;
+      border-width: medium;
+      width: 132px;
+      margin-left: 20px;
+      margin-top: 15px;
+    }
     .frank{
         background-size: 320px;
     }
