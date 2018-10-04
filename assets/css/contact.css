@@ -17,7 +17,7 @@ h2{
 }
 
 .msgDiv{
-	padding-top: 35px;
+	padding-top: 30px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 20px;
@@ -33,12 +33,6 @@ h2{
 .msg3{
 	color: rgb(0, 179, 227);
 	text-decoration: underline;
-}
-
-.txt{
-	font-size: 14px;
-	color: #555;
-	line-height: 20px;
 }
 
 .slot{
@@ -186,7 +180,7 @@ p {
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
   #bannerPic{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 	}
   .slot{
@@ -194,7 +188,7 @@ p {
   }
 }
 
-/* Small Devices, Tablets */
+/* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
   #bannerPic{
       width: 100%;
@@ -205,13 +199,79 @@ p {
   }
 }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
   #bannerPic{
       width: 100%;
       height: auto;
   	}
   .slot{
-  	right: 6%;
+  		right: 10%;
+	  position: center;
   }
+  .slot2{
+  		width: 220px;
+  		height: 220px;
+  	}
+  .msg{
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .msg3{
+      font-size: 24px;
+  }
+  p{
+  	  font-size: 16px;
+  }
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+  #bannerPic{
+    	width: 100%;
+    	height: auto;
+  	}
+  	.msg{
+    	font-size: 23px;
+    	font-weight: bold;
+    	margin-top: -10px;
+  	}
+  	.msg3{
+    	font-size: 22px;
+    	margin-top: -10px;
+  }  
+  	.slot{
+  		left: -20%;
+  	}
+  	#slot{
+  		left: -15%;
+  	}
+  	.slot2{
+  		width: 175px;
+  		height: 175px;
+  		background-size: 250px;
+  	}
+  	.fa-envelope-o {
+  		visibility: hidden;
+  	}
+  	p {
+		font-size: 14px;
+  	}
+  	.link{
+  		padding-top: 20px;
+  		font-size: 16px;
+  	}
+  	h4{
+  		font-size: 13px;
+  		font-weight: bold;
+		border-style: solid;
+		border-width: medium;
+		width: 132px;
+		margin-left: 20px;
+		margin-top: 30px;
+
+  	}
+  	.slot3{
+  		padding-top: 0px;
+  	}
 }
