@@ -36,7 +36,8 @@ h2{
 }
 
 .slot{
-	padding: 30px 20px 10px 70px;
+	padding: 30px 20px 30px 70px;
+
 }
 
 .slot2{
@@ -54,7 +55,7 @@ h2{
 .losA{
 	background-image: url("../images/bgc1.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 
 }
@@ -62,91 +63,91 @@ h2{
 .sanF{
 	background-image: url("../images/bgc2.jpeg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .dal{
 	background-image: url("../images/bgc3.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .aust{
 	background-image: url("../images/bgc4.jpg");
 	background-size: 380px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .chic{
 	background-image: url("../images/bgc5.jpg");
 	background-size: 300px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .nyc{
 	background-image: url("../images/bgc6.png");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .seoul{
 	background-image: url("../images/bgc7.jpg");
 	background-size: 450px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .incheon{
 	background-image: url("../images/bgc8.jpg");
 	background-size: 330px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .busan{
 	background-image: url("../images/bgc9.jpg");
 	background-size: 350px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .singa{
 	background-image: url("../images/bgc10.jpeg");
 	background-size: 310px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .shang{
 	background-image: url("../images/bgc11.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .xian{
 	background-image: url("../images/bgc12.jpg");
 	background-size: 350px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .taipei{
 	background-image: url("../images/bgc13.jpg");
 	background-size: 400px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;
 }
 
 .frank{
 	background-image: url("../images/bgc14.jpg");
 	background-size: 475px;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.5);
     background-blend-mode: lighten;	
 }
 
@@ -162,7 +163,8 @@ p {
 
 
 #contact .card:hover i,#contact .card:hover h4{
-	color: white;
+      color: white;
+      text-shadow: 2px 2px black;
 }
 
 #contact .card:hover p{
@@ -240,7 +242,7 @@ p {
   		left: -15%;
   	}
   	#slot{
-  		left: -15%;
+  		left: -10%;
   	}
   	.slot2{
   		width: 170px;
@@ -252,21 +254,20 @@ p {
   	}
   	p {
 		  font-size: 14px;
+      color: black;
+      text-shadow: 1px 1px white;
   	}
   	.link{
   		padding-top: 20px;
-  		font-size: 16px;
-		  color: white;
-		  text-shadow: 1px 1px black;
+  		font-size: 14px;
+
   	}
   	h4{
   		font-size: 13px;
   		font-weight: bold;
-		  border-style: solid;
-	   	border-width: medium;
 		  width: 132px;
-		  margin-left: 20px;
-		  margin-top: 15px;
+		  margin-left: 15px;
+		  margin-top: 20px;
   	}
     .frank{
         background-size: 320px;
@@ -279,6 +280,9 @@ p {
     }
     .nyc{
         background-size: 270px;
+    }
+    .losA{
+      background-size: 300px;
     }
 }
 
@@ -301,11 +305,11 @@ p {
       left: -20%;
     }
     #slot{
-      left: -15%;
+      left: -10%;
     }
     .slot2{
-      width: 170px;
-      height: 170px;
+      width: 160px;
+      height: 160px;
       background-size: 250px;
     }
     .fa-envelope-o {
@@ -340,5 +344,8 @@ p {
     }
     .nyc{
         background-size: 270px;
+    }
+    .losA{
+      background-size: 300px;
     }
 }
