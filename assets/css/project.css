@@ -29,7 +29,6 @@ body{
 .logoPic{
 	width: 135px;
 	height: 135px;
-	padding-bottom: 
 }
 
 .col-md-3 {
@@ -38,6 +37,28 @@ body{
 
 h5{
 	color: black;
+}
+
+
+/* Desktop Version */
+@media (min-width: 1400px) and (max-width: 1699px) {
+	.logoPic{
+		width: 200px;
+		height: 185px;
+		padding-bottom: 
+	}
+	.pt-2{
+		font-size: 20px;
+		text-align: center;
+	}
+	.commodities{
+		text-align: center;
+		font-size: 130px;
+	}
+	.msg{
+		font-size: 4.0em;
+		padding-bottom: 10px;
+	}
 }
 
 /* Medium Devices, .visible-md-* */
@@ -79,7 +100,6 @@ h5{
 	.logoPic{
 		width: 100px;
 		height: 100px;
-		padding-bottom: 
 	}
 }
 
@@ -110,7 +130,6 @@ h5{
 	.logoPic{
 		width: 70px;
 		height: 65px;
-		padding-bottom: 
 	}
 }
 

@@ -90,13 +90,22 @@ section .section-title {
         font-size: 1.3em;
     }
     .footh5{
-        font-size: 1.0em;
+        font-size: 1.2em;
     }
     .h6{
         font-size: 1.0em;
     }
     .futeD{
         margin-top: 50px;
+        font-size: 1.1em;
+    }
+    .subF{
+        font-size: 1.1em;
+    }
+    .subI{
+        font-size: 1.4em;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }
 
