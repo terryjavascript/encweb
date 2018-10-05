@@ -22,7 +22,16 @@
 
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
-
+    #navContainer{
+        width: 100%;
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    li{
+        font-size: 16px;
+    }
 }
 
 

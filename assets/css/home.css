@@ -450,7 +450,7 @@ body {
 }
 
 #taiwan{
-	top: 40%;
+	top: 39%;
 	left: 37%;
 }
 
@@ -550,8 +550,22 @@ body {
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
 	#mapImg{
-		padding-top: 1.9%;
+		padding-top: 3.0%;
 		padding-right: 1%;
+	}
+	.timezone{
+		position: absolute;
+		float: left;
+		width: 17%;	
+		margin: auto;
+		bottom: 30%;
+		left: 4%;	
+		font-size: 20px;
+	}
+	.clockImg{
+		position: fixed;
+		top: 120%;
+		left: 9%;
 	}
 }
 
