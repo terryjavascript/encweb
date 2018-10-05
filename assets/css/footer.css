@@ -86,14 +86,16 @@ section .section-title {
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
     #footer{
+        padding-top: 8%;
         height: 700px;
-        font-size: 1.3em;
-    }
-    .footh5{
         font-size: 1.2em;
     }
+    .footh5{
+        font-size: 1.1em;
+    }
     .h6{
-        font-size: 1.0em;
+        padding-top: 15px;
+        font-size: 0.8em;
     }
     .futeD{
         margin-top: 50px;
@@ -105,7 +107,7 @@ section .section-title {
     .subI{
         font-size: 1.4em;
         padding-bottom: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 }
 

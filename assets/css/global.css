@@ -21,52 +21,6 @@ h2{
 	font-family: 'Arimo', sans-serif;
 }
 
-
-/* Medium Devices, .visible-md-* */
-@media (min-width: 992px) and (max-width: 1199px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
-}
-
-/* Small Devices */
-@media (min-width: 768px) and (max-width: 991px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
-}
-
-/* Tablet */
-@media (min-width: 431px) and (max-width: 767px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
-}
-
-/* Mobile Phone */
-@media only screen and (max-width: 430px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
-  	.msg{
-    	font-size: 30px;
-    	font-weight: bold;
-  	}	
-  	.msg3{
-  		font-size: 22px;
- 	}
-	.about{
-		font-size: 12px;
-	}
-}
-
-
-
-
 /* snippet function */
 .panel-table {
     display:table;
@@ -147,4 +101,84 @@ h2{
 	text-align: right;
 }
 
+/* Desktop Version */
+@media (min-width: 1400px) and (max-width: 1699px) {
+    .msg3{
+        font-size: 3.8em;
+        padding-bottom: 10px;
+        margin-left: -10%;
+        padding-top: 35px;
+    }
+    .msg2{
+        font-size: 1.5em;
+        margin-left: -10%;
+    }
+    .overall{
+        width: 1500px;
+        left: -10%;
+        padding: 35px 0px 50px 0px;
+    }
+    .side{
+        width: 500px;
+        height: 640px;
+    }
+    .mTxt{
+        font-size: 21px;
+        padding-top: 5px;
+    }
+    .aTxt{
+        font-size: 19px;
+    }
+    .sTxt{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .about{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #bannerPic{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    #bannerPic{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Tablet */
+@media (min-width: 431px) and (max-width: 767px) {
+    #bannerPic{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile Phone */
+@media only screen and (max-width: 430px) {
+    #bannerPic{
+        width: 100%;
+        height: auto;
+    }
+    .msg{
+        font-size: 30px;
+        font-weight: bold;
+    }   
+    .msg3{
+        font-size: 22px;
+    }
+    .about{
+        font-size: 12px;
+    }
+}
 

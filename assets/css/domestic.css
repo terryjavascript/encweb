@@ -49,6 +49,41 @@ h2{
 	padding-bottom: 20px;
 }
 
+/* Desktop Version */
+@media (min-width: 1400px) and (max-width: 1699px) {
+  .msg{
+    font-size: 4.0em;
+    padding-bottom: 10px;
+  }
+  .msg2{
+    font-size: 2.0em;
+  }
+  .msg3{
+    font-size: 2.7em; 
+  }
+  .txt{
+    font-size: 1.5em;
+    line-height: 30px;  
+  }
+  .upperPic{
+    width: 550px;
+    height: auto;
+    margin-left: 15%;
+    padding-top: 25px;
+  }
+  .pagePic{
+    width: 550px;
+    height: auto;
+    margin-left: 15%;
+  }
+  .portalPic{
+  	width: 960px;
+  	height: auto;
+  	padding-top: 35px;
+  	padding-bottom: 20px;
+  }
+}
+
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
 	#bannerPic{
