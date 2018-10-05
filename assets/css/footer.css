@@ -86,8 +86,8 @@ section .section-title {
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
     #footer{
-        padding-top: 8%;
-        height: 700px;
+        padding-top: 7%;
+        height: 640px;
         font-size: 1.2em;
     }
     .footh5{
