@@ -22,7 +22,7 @@ section .section-title {
 
     border-left: 3px solid #dedede;
     padding-bottom: 6px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     color:#000000;
     font-weight: bold;
     text-decoration: underline;
@@ -81,6 +81,14 @@ section .section-title {
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
+
+/* Desktop Version */
+@media (min-width: 1400) and (max-width: 1699px) {
+    #footer{
+        height: 200%;
+    }
+}
+
 
 @media only screen and (max-width: 430px){
 	#footer {

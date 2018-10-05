@@ -1,6 +1,9 @@
 /*MOBILE QUERY SETTINGS FOR ENC-INC */
 
+/* Desktop Version */
+@media (min-width: 1400px) and (max-width: 1699px) {
 
+}
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
