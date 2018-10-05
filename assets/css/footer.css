@@ -15,6 +15,7 @@ section .section-title {
     background: #dedede !important;
     padding-top: 5%;
     font-family: 'Arimo', sans-serif;
+    height: 580px;
 }
 
 
@@ -83,9 +84,19 @@ section .section-title {
 }
 
 /* Desktop Version */
-@media (min-width: 1400) and (max-width: 1699px) {
+@media (min-width: 1400px) and (max-width: 1699px) {
     #footer{
-        height: 200%;
+        height: 700px;
+        font-size: 1.3em;
+    }
+    .footh5{
+        font-size: 1.0em;
+    }
+    .h6{
+        font-size: 1.0em;
+    }
+    .futeD{
+        margin-top: 50px;
     }
 }
 
@@ -93,7 +104,7 @@ section .section-title {
 @media only screen and (max-width: 430px){
 	#footer {
         padding-left: 0;
-        padding-top: 6%;
+        padding-top: 0%;
         border-left: transparent;
     }
     .fa{

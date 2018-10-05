@@ -5,7 +5,7 @@ body {
 
 #slide {
 	width: 100%;
-	height: 600px;
+	height: 620px;
 }
 
 .imgTxt {
@@ -450,7 +450,7 @@ body {
 }
 
 #taiwan{
-	top: 39%;
+	top: 40%;
 	left: 37%;
 }
 
@@ -545,6 +545,14 @@ body {
 	display: none;
 	padding: 4px; 
 	font-weight: bold;
+}
+
+/* Desktop Version */
+@media (min-width: 1400px) and (max-width: 1699px) {
+	#mapImg{
+		padding-top: 1.9%;
+		padding-right: 1%;
+	}
 }
 
 
