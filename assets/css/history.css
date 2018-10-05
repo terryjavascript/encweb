@@ -23,6 +23,10 @@ h2{
   color: rgb(0, 179, 227);
 }
 
+.msg{
+  padding-top: 35px;
+}
+
 /**/
 .txt{
   font-size: 14px;
@@ -38,7 +42,7 @@ h2{
 }
 
 .img-circle{
-  width: 220px;
+  width: 230px;
   height: 185px;
 }
 
@@ -78,7 +82,7 @@ h2{
   position: relative;
   float: left;
   width: 40%;
-  padding: 0 20px 20px 30px;
+  padding: 0 20px 20px 0px;
   text-align: right;
 }
 
@@ -117,7 +121,7 @@ h2{
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 30px 20px 20px;
+    padding: 0 20px 20px 20px;
     text-align: left;
 }
 
@@ -201,6 +205,39 @@ h2{
     transform: rotate(44deg);
     box-shadow: 0 0 5px #4582ec;
 }
+
+/* Desktop Version */
+@media (min-width: 1400px) and (max-width: 1699px) {
+  .msg{
+    font-size: 4.0em;
+    padding-bottom: 10px;
+    margin-left: -18%;
+  }
+  .msg2{
+    font-size: 2em;
+    margin-left: -18%;
+  }
+  .text-muted{
+    font-size: 1.1em;
+    line-height: 30px;  
+  }
+  h4{
+    font-weight: bold;
+  }
+  .upperPic{
+    width: 550px;
+    height: auto;
+    margin-left: 15%;
+    padding-top: 25px;
+  }
+  .pagePic{
+    width: 550px;
+    height: auto;
+    margin-left: 15%;
+
+  }
+}
+
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {

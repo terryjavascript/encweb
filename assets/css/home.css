@@ -253,7 +253,7 @@ body {
 	float: left;
 	width: 15%;	
 	margin: auto;
-	bottom: 22%;
+	bottom: 18%;
 	left: 7%;
 		
 }
@@ -550,7 +550,7 @@ body {
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
 	#mapImg{
-		padding-top: 3.0%;
+		padding-top: 1.9%;
 		padding-right: 1%;
 	}
 	.timezone{
@@ -558,7 +558,7 @@ body {
 		float: left;
 		width: 17%;	
 		margin: auto;
-		bottom: 30%;
+		bottom: 27%;
 		left: 4%;	
 		font-size: 20px;
 	}
