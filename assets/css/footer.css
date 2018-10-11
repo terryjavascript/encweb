@@ -15,11 +15,32 @@ section .section-title {
     background: #dedede !important;
     padding-top: 5%;
     font-family: 'Arimo', sans-serif;
-    height: 580px;
+    height: 500px;
+}
+
+#footer2 {
+    background: #dedede !important;
+    padding-top: 5%;
+    font-family: 'Arimo', sans-serif;
+    height: 620px;
+}
+
+#lowerC{
+    font-size: 14px;
 }
 
 
 #footer h5{
+
+    border-left: 3px solid #dedede;
+    padding-bottom: 6px;
+    margin-bottom: 45px;
+    color:#000000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#footer2 h5{
 
     border-left: 3px solid #dedede;
     padding-bottom: 6px;
@@ -36,8 +57,19 @@ section .section-title {
     -webkit-text-decoration-skip: objects;
 }
 
+#footer2 a {
+    color: #000000;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
 #footer ul.social li{
 	padding: 3px 0;
+}
+
+#footer2 ul.social li{
+    padding: 3px 0;
 }
 
 #footer ul.social li a i {
@@ -48,9 +80,22 @@ section .section-title {
 	transition: .5s all ease;
 }
 
+#footer2 ul.social li a i {
+    margin-right: 5px;
+    font-size:25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
 #footer ul.social li:hover a i {
 	font-size:30px;
 	margin-top:-10px;
+}
+
+#footer2 ul.social li:hover a i {
+    font-size:30px;
+    margin-top:-10px;
 }
 
 #footer ul.social li a,
@@ -58,8 +103,17 @@ section .section-title {
 	color:#000000;
 }
 
+#footer2 ul.social li a,
+#footer2 ul.quick-links li a{
+    color:#000000;
+}
+
 #footer ul.social li a:hover{
 	color:#eeeeee;
+}
+
+#footer2 ul.social li a:hover{
+    color:#eeeeee;
 }
 
 #footer ul.quick-links li{
@@ -69,23 +123,49 @@ section .section-title {
 	transition: .5s all ease;
 }
 
+#footer2 ul.quick-links li{
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
 #footer ul.quick-links li:hover{
 	padding: 3px 0;
 	margin-left:5px;
 	font-weight:700;
 }
 
+#footer2 ul.quick-links li:hover{
+    padding: 3px 0;
+    margin-left:5px;
+    font-weight:700;
+}
+
 #footer ul.quick-links li a i{
 	margin-right: 5px;
+}
+
+#footer2 ul.quick-links li a i{
+    margin-right: 5px;
 }
 
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
 
+#footer2 ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
     #footer{
+        padding-top: 7%;
+        height: 640px;
+        font-size: 1.2em;
+    }
+    #footer2{
         padding-top: 7%;
         height: 640px;
         font-size: 1.2em;
@@ -101,6 +181,11 @@ section .section-title {
         margin-top: 50px;
         font-size: 1.1em;
     }
+    #lowerC{
+        margin-top: 50px;
+        font-size: 1.1em;
+
+    }
     .subF{
         font-size: 1.1em;
     }
@@ -111,11 +196,54 @@ section .section-title {
     }
 }
 
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    #footer{
+        padding-top: 5%;
+        height: 500px;
+        font-size: 1.2em;
+    }
+    #footer2{
+        padding-top: 5%;
+        height: 500px;
+        font-size: 1.2em;
+    }
+    .footh5{
+        font-size: 0.8em;
+    }
+    .h6{
+        padding-top: 15px;
+        font-size: 0.9em;
+    }
+    .futeD{
+        margin-top: 50px;
+        font-size: 0.8em;
+    }
+    #lowerC{
+        margin-top: 50px;
+        font-size: 0.8em;
+    }
+    .subF{
+        font-size: 0.8em;
+    }
+    .subI{
+        font-size: 1em;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
 
-@media only screen and (max-width: 430px){
+}
+
+
+@media only screen and (max-width: 768px){
 	#footer {
         padding-left: 0;
         padding-top: 0%;
+        border-left: transparent;
+    }
+    #footer2 {
+        padding-left: 0;
+        padding-top: 4%;
         border-left: transparent;
     }
     .fa{
@@ -124,6 +252,14 @@ section .section-title {
     h5{
         font-weight: bold;
         font-size: 12px;
+    }
+    .futeD{
+        margin-top: 12px;
+        font-size: 0.9em;
+    }
+    #lowerC{
+        margin-top: 12px;
+        font-size: 0.9em;  
     }
 }
 

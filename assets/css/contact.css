@@ -234,7 +234,7 @@ p {
     #contact{
       padding-bottom: 60px;
     }
-    #futeD{
+    #lowerC{
         margin-top: 50px;
         font-size: 1.1em;
     }
@@ -351,6 +351,10 @@ p {
     }
     .losA{
         background-size: 300px;
+    }
+    #footer{
+      height: 120%;
+      margin-bottom: 15%;
     }
 }
 
