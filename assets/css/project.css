@@ -20,6 +20,7 @@ body{
 .commodities{
 	font-size: 100px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .txt{
@@ -37,6 +38,10 @@ body{
 
 h5{
 	color: black;
+}
+
+.pt-2{
+	text-align: center;
 }
 
 

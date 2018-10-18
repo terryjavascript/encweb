@@ -17,6 +17,7 @@
     border-color: rgb(0, 179, 227);
     color: rgb(255, 255, 255);
     font-weight: bold;
+    width: 100%;  
 }
 
 
@@ -38,9 +39,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .mainImg{
         position: absolute;
-        width: 100px;
-        margin-left: -50px;
-        padding-right: 10px;
+        right: 10%;
+    }
+    .navbar{
+        left: 5%;
+        width: 100%;
     }
 }
 
@@ -52,3 +55,5 @@
         text-align: center;
     }
 }
+
+/*created and designed by Terry Kim 2018 */

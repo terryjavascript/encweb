@@ -50,7 +50,7 @@ body {
 }
 
 .logopng {
-	max-width: 180px;
+	max-width: 200px;
 	max-height: 180px;
 }
 
@@ -273,6 +273,13 @@ body {
 	height: 480px;
 }
 
+#mapImg{
+	padding-top: 5%;
+	width: 122%;
+	margin-left:-13%;
+}
+
+/*
 #los-angeles {
 	top: 34.3%; 
 	right: 22.8%;
@@ -540,6 +547,8 @@ body {
 	padding: 4px; 
 	font-weight: bold;
 }
+
+*/
 
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
