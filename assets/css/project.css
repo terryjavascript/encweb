@@ -6,14 +6,11 @@ body{
 	max-width: 100%;
 }
 
-#bannerPic{
-	position: relative;
-	width: 100%;
-	height: 160px;
-}
-
 .msgDiv{
-	padding: 15px 50px 30px 50px;
+	padding-top: 35px;
+	padding-left: 25px;
+	padding-right: 50px;
+	padding-bottom: 50px;
 	font-family: 'Arimo', sans-serif;
 }	
 
@@ -68,28 +65,15 @@ h5{
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
 }
 
 /* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
-
 }
 
 
 /* Tablet */
 @media (min-width: 431px) and (max-width: 767px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
-	}
 	.commodities{
 		font-size: 90px;
 		text-align: center;
@@ -110,27 +94,26 @@ h5{
 
 /* Mobile Phone */
 @media only screen and (max-width: 430px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
-	}
 	.msgDiv{
-		left: -10%;
 		padding-top: 5px;
 		padding-bottom: 5px;
 
 	}
+  	.msg{
+      font-size: 25px;
+      font-weight: bold;
+  	} 
 	h1{
 		font-size: 22px;
 		font-weight: bold;
 	}
 	.commodities{
-		font-size: 80px;
+		font-size: 70px;
 		text-align: center;
 
 	}
 	.pt-2{
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.logoPic{
 		width: 70px;

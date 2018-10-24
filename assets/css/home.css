@@ -5,7 +5,7 @@ body {
 
 #slide {
 	width: 100%;
-	height: 620px;
+	height: 600px;
 }
 
 .imgTxt {
@@ -40,7 +40,7 @@ body {
 
 .clockImg{
 	position: fixed;
-	top: 115%;
+	top: 113%;
 	left: 9.5%;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .certification {
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 
@@ -82,6 +82,10 @@ body {
 	#txt4{
 		font-size: 22px;
 	}
+	.logopng{
+		width: 120%;
+		height: 120%;
+	}	
 }
 
 
@@ -124,17 +128,17 @@ body {
 		text-align: justify;
 	}
 	.logopng{
-		width: 93%;
+		width: 95%;
 	}	
 	#slide{
-		height: 530px;
-		padding-top: 30px;
+		height: 550px;
+		padding-top: 10px;
 	}
 }
 
 
 /* Tablet */
-@media (min-width: 431px) and (max-width: 767px) {
+@media (min-width: 482px) and (max-width: 767px) {
 	.imgTxt {
     	font-size: 1.8em;
 		height: auto;
@@ -147,24 +151,20 @@ body {
 
 	}
 	.logopng {
-		width: 75%;
-		height: auto;
-		margin-right: 20px;
+		width: 100%;
     }
 	.certification {
 		width: 100%;
 		height: auto;
-		padding-top: 420px;
-		padding-left: 50px;
-		margin-top: -60%;
+		margin-top: -5%;
     }
 	#slide {
 		width: 100%;
-		height: 460px;
+		height: 550px;
     }
 	.content {
 		width: 100%;
-		height: 50%;
+		height: auto;
     }
     #txt3{
 		font-size: 30px;
@@ -179,14 +179,7 @@ body {
 		width: 98%;	
 		text-align: justify;
 	}
-	.item{
-		display: none;
-	}
-	.logo{
-		visibility: visible;
-		padding-top: 30px;
-		padding-left: -10px;
-	}
+
 	.futeD{
 		font-size: 80%;
 		margin-top: -30px;
@@ -194,7 +187,7 @@ body {
 }
 
 /* Mobile Phone */
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 481px) {
 	#slide{
 		margin-top: 5%;
 		height: 370px;
@@ -217,12 +210,15 @@ body {
 		padding-top: 10px;
 	}
 	.logopng {
-		width: 75%;
+		width: 85%;
 		height: auto;
 		margin-right: 20px;
-		padding-bottom: 20px;
+		margin-top: 0px;
     }
-	.item{
+    .mCert{
+    	padding-top:10px;
+    }
+	.certification{
 		display: none;
 	}
     #txt3{
@@ -274,9 +270,9 @@ body {
 }
 
 #mapImg{
-	padding-top: 5%;
+	padding-top: 6%;
 	width: 122%;
-	margin-left:-13%;
+	margin-left:-12%;
 }
 
 /*
@@ -553,7 +549,7 @@ body {
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
 	#mapImg{
-		padding-top: 1.9%;
+		padding-top: 7%;
 		padding-right: 1%;
 	}
 	.timezone{
@@ -640,7 +636,7 @@ body {
 
 .unit {
 	width: 20%;
-	height: 380px;
+	height: 385px;
 	border-style: solid;
 	border-width: thin;
 	border-radius: 25px;
@@ -721,6 +717,7 @@ hr.divider {
 		margin-top: 110px;
 		margin-right: -5px;
 		height: 370px;
+		text-align: center;
 	}
 	.wTxt{
 		font-size: 20px;
@@ -728,17 +725,18 @@ hr.divider {
 }
 
 /* Mobile Phone */
-@media only screen and (max-width: 594px) {
+@media only screen and (max-width: 620px) {
 	.nonWeb{
 		visibility: visible;
 		display: inline-block;
 		width: 100%;
 	}
 	.unit{
-		left: -1%;
+		left: -1.2%;
 		margin-top: 80px;
-		margin-right: -2px;
+		margin-right: -3px;
 		height: 380px;
+		text-align: center;
 	}
 	.wTxt{
 		font-size: 16px;
@@ -749,18 +747,15 @@ hr.divider {
 	.ddC{
 		display: none;
 	}
+	#unit3{
+		padding-left: 12px;
+	}
 	.ffC{
 		visibility: visible;
 		position: absolute;
 		bottom: -20%;
 		left: -210%;
 		
-	}
-	.list{
-		text-align: center;
-	}
-	#footer{
-		height: 120%;
 	}
 }
 

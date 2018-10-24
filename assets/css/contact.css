@@ -6,11 +6,6 @@ body{
 	max-width: 100%;
 }
 
-#bannerPic{
-	position: relative;
-	width: 100%;
-	height: 160px;	
-}
 
 h2{
 	font-size: 32px;
@@ -151,6 +146,14 @@ h2{
     background-blend-mode: lighten;	
 }
 
+.hamb{
+  background-image: url("../images/bgc15.jpg");
+  background-size: 400px;
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten; 
+}
+
+
 p {
 	color: black;
 	font-size: 18px;
@@ -174,6 +177,11 @@ p {
 #futxt{
 	font-size: 14px;
 }
+
+.fa-envelope-o{
+  padding-top: 10%; 
+}
+
 
 /* Desktop Version */
 @media (min-width: 1400px) and (max-width: 1699px) {
@@ -242,10 +250,6 @@ p {
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
-  #bannerPic{
-    width: 100%;
-    height: auto;
-	}
   .slot{
   	right: 6%;
   }
@@ -253,10 +257,6 @@ p {
 
 /* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
-  #bannerPic{
-      width: 100%;
-      height: auto;
-  	}
   .slot{
   	right: 6%;
   }
@@ -264,18 +264,20 @@ p {
 
 /* Tablet */
 @media (min-width: 431px) and (max-width: 767px) {
-  #bannerPic{
-      width: 100%;
-      height: auto;
-  	}
   .slot{
   		right: 10%;
-	  position: center;
+	    position: center;
   }
   .slot2{
   		width: 220px;
   		height: 220px;
   	}
+    #slot{
+      left: -5%;
+    }
+    #slot2{
+      left: -9%;
+    }
   .msg{
       font-size: 30px;
       font-weight: bold;
@@ -288,14 +290,14 @@ p {
       color: black;
       text-shadow: 1px 1px white;
   }
+  #fass{
+    font-size: 50px; 
+  }
+  
 }
 
 /* Mobile Phone */
 @media (min-width: 404px) and (max-width: 430px) {
-  #bannerPic{
-    	width: 100%;
-    	height: auto;
-  	}
   	.msg{
     	font-size: 23px;
     	font-weight: bold;
@@ -311,6 +313,9 @@ p {
   	#slot{
   		left: -10%;
   	}
+    #slot2{
+      left: -13.5%;
+    }
   	.slot2{
   		width: 170px;
   		height: 170px;
@@ -328,8 +333,10 @@ p {
   	.link{
   		padding-top: 20px;
   		font-size: 14px;
-
   	}
+    .phoneN{
+      font-size: 12px;
+    }
   	h4{
   		font-size: 13px;
   		font-weight: bold;
@@ -352,18 +359,10 @@ p {
     .losA{
         background-size: 300px;
     }
-    #footer{
-      height: 120%;
-      margin-bottom: 15%;
-    }
 }
 
 /* iphoneX Phone */
 @media only screen and (max-width: 403px) {
-  #bannerPic{
-      width: 100%;
-      height: auto;
-    }
     .msg{
       font-size: 23px;
       font-weight: bold;
@@ -396,6 +395,9 @@ p {
     .link{
       padding-top: 20px;
       font-size: 14px;
+    }
+    .phoneN{
+      font-size: 12px;
     }
     h4{
       font-size: 13px;

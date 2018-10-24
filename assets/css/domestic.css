@@ -7,12 +7,6 @@ body{
 	max-width: 100%;
 }
 
-#bannerPic{
-	position: relative;
-	width: 100%;
-	height: 160px;	
-}
-
 h2{
 	font-size: 28px;
 }
@@ -86,10 +80,6 @@ h2{
 
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
 	.pagePic{
 		width: 400px;
 		height: auto;
@@ -102,10 +92,6 @@ h2{
 
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
  	.upperPic{
  		width: 350px;
 		height: auto;
@@ -126,10 +112,6 @@ h2{
 
 /* Tablet */
 @media (min-width: 431px) and (max-width: 767px) {
-	#bannerPic{
-    	width: 100%;
-    	height: auto;
- 	}
  	.upperPic{
 		width: 100%;
 		height: auto; 
@@ -150,10 +132,6 @@ h2{
 
 /* Mobile Phone */
 @media only screen and (max-width: 430px) {
-  #bannerPic{
-      width: 100%;
-      height: auto;
-  }
   .upperPic{
     width: 250px;
     height: auto; 

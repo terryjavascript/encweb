@@ -8,8 +8,9 @@
 
 
 .navbar-brand {
-    position: relative; 
-    z-index: 2; 
+    position: absolute; 
+    z-index: 1; 
+    left: 1.5%;
 }
 
 .navbar-nav.navbar-right .btn:not(.collapsed) {
@@ -17,7 +18,6 @@
     border-color: rgb(0, 179, 227);
     color: rgb(255, 255, 255);
     font-weight: bold;
-    width: 100%;  
 }
 
 
@@ -39,11 +39,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .mainImg{
         position: absolute;
-        right: 10%;
     }
     .navbar{
-        left: 5%;
-        width: 100%;
+        font-size: 80%;
+        padding-left: 6%;
     }
 }
 
@@ -53,6 +52,9 @@
     }
     .dropdown-menu{
         text-align: center;
+    }
+    .mainImg{
+        width: 150px;
     }
 }
 

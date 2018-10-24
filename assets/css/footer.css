@@ -15,14 +15,14 @@ section .section-title {
     background: #dedede !important;
     padding-top: 5%;
     font-family: 'Arimo', sans-serif;
-    height: 500px;
+    height: 480px;
 }
 
 #footer2 {
     background: #dedede !important;
     padding-top: 5%;
     font-family: 'Arimo', sans-serif;
-    height: 620px;
+    height: 650px;
 }
 
 #lowerC{
@@ -200,7 +200,7 @@ section .section-title {
 @media (min-width: 768px) and (max-width: 991px) {
     #footer{
         padding-top: 5%;
-        height: 500px;
+        height: 440px;
         font-size: 1.2em;
     }
     #footer2{
@@ -216,12 +216,12 @@ section .section-title {
         font-size: 0.9em;
     }
     .futeD{
-        margin-top: 50px;
+        margin-top: 10px;
         font-size: 0.8em;
     }
     #lowerC{
-        margin-top: 50px;
-        font-size: 0.8em;
+        margin-top: 25px;
+        font-size: 1em;
     }
     .subF{
         font-size: 0.8em;
@@ -237,13 +237,14 @@ section .section-title {
 
 @media only screen and (max-width: 768px){
 	#footer {
+        height: 620px;
         padding-left: 0;
         padding-top: 0%;
         border-left: transparent;
     }
     #footer2 {
         padding-left: 0;
-        padding-top: 4%;
+        padding-top: 0;
         border-left: transparent;
     }
     .fa{
@@ -258,8 +259,8 @@ section .section-title {
         font-size: 0.9em;
     }
     #lowerC{
-        margin-top: 12px;
-        font-size: 0.9em;  
+        margin-top: 10px;
+        font-size: 1.05em; 
     }
 }
 
