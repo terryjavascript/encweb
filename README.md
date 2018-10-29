@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="assets/images/ss1.png" width="500px" alt="ENC-Web"/>
+<img align="center" src="assets/images/mainglogo.png" width="500px" alt="ENC-Web"/>
 </p>
 
 # Deployed with WWS
